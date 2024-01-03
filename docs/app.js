@@ -41,33 +41,31 @@ function renderRepos(repos) {
     });
 }
 
-
 // Function to render the filters (tags)
 function renderFilters(tags) {
     const filtersContainer = document.getElementById('filters');
-    // const svcLinesContainer = document.getElementById('svc-lines');
     const hyperscalerContainer = document.getElementById('hyperscalers');
-    // const cmmContainer = document.getElementById('cmm-dimensions');
     const verticalContainer = document.getElementById('verticals');
     filtersContainer.innerHTML = '';
 
     // Render the filters at the top
     filtersContainer.innerHTML = `
-        <div class="tags">
+        <div class="filters">
             Filters:
             <span class="badge badge-primary mr-2 cursor-pointer" onclick="filterReposByTag(null, repos)">All</span>
             ${tags.map(tag => `
                 <span class="badge badge-primary mr-2 cursor-pointer" onclick="filterReposByTag('${tag}', repos)">${tag}</span>
             `).join(' ')}
-            <br>
+        </div>
+        <div class="clear-filters">
             Clear Filters: <span class="badge badge-secondary mr-2 cursor-pointer" onclick="filterReposByTag(null, repos)">Clear All</span>
         </div>
     `;
 
-    hyperScalers = ['AWS', 'Azure', 'GCP', 'vmware', 'openstack']
+    hyperScalers = ['AWS', 'Azure', 'GCP', 'vmware', 'openstack'].sort()
     // Render the filters at the top
     hyperscalerContainer.innerHTML = `
-        <div class="tags">
+        <div class="hyperscalers">
             Hyperscaler:
             ${hyperScalers.map(tag => `
                 <span class="badge badge-success mr-2 cursor-pointer" onclick="filterReposByTag('${tag}', repos)">${tag}</span>
@@ -76,11 +74,15 @@ function renderFilters(tags) {
         </div>
     `;
 
-    techVerticals = ['AI & ML', 'Analytics', 'App Services', 'Databases', 'Development', 'Identity & Security', 'Storage', 'Networking']
+    techVerticals = [
+        'AI & ML', 'Analytics', 'Compute', 'App Services', 'Databases',
+        'Development', 'Identity & Security', 'Storage', 'Networking', 'Tools'
+    ].sort()
+
     // Render the filters at the top
     verticalContainer.innerHTML = `
         <div class="tags">
-            Verticals:
+            Use Cases:
             ${techVerticals.map(tag => `
                 <span class="badge badge-danger mr-2 cursor-pointer" onclick="filterReposByTag('${tag}', repos)">${tag}</span>
             `).join(' ')}
