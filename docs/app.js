@@ -32,7 +32,7 @@ function renderRepos(repos) {
                     
                     <!-- Display tags inside the repo card -->
                     <div class="tags">
-                        Tags: ${repo.tags.map(tag => `<span class="badge badge-primary" onclick="filterReposByTag('${tag}', repos)">${tag}</span>`).join(' ')}
+                        Tags: ${repo.tags.sort().map(tag => `<span class="badge badge-primary" onclick="filterReposByTag('${tag}', repos)">${tag}</span>`).join(' ')}
                     </div>
                 </div>
             </div>
@@ -47,13 +47,13 @@ function renderFilters(tags) {
     const hyperscalerContainer = document.getElementById('hyperscalers');
     const verticalContainer = document.getElementById('verticals');
     filtersContainer.innerHTML = '';
-
+    
     // Render the filters at the top
     filtersContainer.innerHTML = `
         <div class="filters">
             Filters:
             <span class="badge badge-primary mr-2 cursor-pointer" onclick="filterReposByTag(null, repos)">All</span>
-            ${tags.map(tag => `
+            ${tags.sort().map(tag => `
                 <span class="badge badge-primary mr-2 cursor-pointer" onclick="filterReposByTag('${tag}', repos)">${tag}</span>
             `).join(' ')}
         </div>

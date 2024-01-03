@@ -18,3 +18,73 @@
   tags:
     - shell
     - zsh
+
+- name: minio
+  url: https://min.io/
+  description: MinIO is a high-performance, S3 compatible object store. It is built for large scale AI/ML, data lake and database workloads. It is software-defined and runs on any cloud or on-premises infrastructure. MinIO is dual-licensed under open source GNU AGPL v3 and a commercial enterprise license.
+  tags:
+    - s3
+    - distributed-storage
+
+- name: ScoutSuite
+  url: https://github.com/nccgroup/ScoutSuite
+  description: Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
+  tags:
+    - cloud-security
+    - tool
+    - devsecops
+
+- name: GitHub Actions
+  url: https://docs.github.com/en/actions/quickstart
+  description: Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow.
+  tags:
+    - ci/cd
+    - github
+
+- name: Prowler
+  url: https://github.com/prowler-cloud/prowler
+  description: Prowler is an Open Source Security tool for AWS, Azure and GCP to perform Cloud Security best practices assessments, audits, incident response, compliance, continuous monitoring, hardening and forensics readiness. Includes CIS, NIST 800, NIST CSF, CISA, FedRAMP, PCI-DSS, GDPR, HIPAA, FFIEC, SOC2, GXP, Well-Architected Security, ENS and more.
+  tags:
+    - cloud-security
+    - aws
+    - azure
+    - gcp
+    - best-practices
+
+- name: Docker
+  url: https://www.docker.com/
+  description: Docker helps developers build, share, and run applications anywhere — without tedious environment configuration or management.
+  tags:
+    - docker
+    - containers
+    - microservices
+
+- name: Kubernetes
+  url: https://kubernetes.io/
+  description: Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+  tags:
+    - kubernetes
+    - containers
+    - microservices
+    - k8s
+
+- name: Docker Compose
+  url: https://github.com/docker/compose
+  description: Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.
+  tags:
+    - docker
+    - containers
+    - microservices
+
+- name: VisualStudio Code (vscode)
+  url: https://code.visualstudio.com/
+  description: Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
+  tags:
+    - IDE
+
+# - name: EXAMPLE
+#   url: https://example.tld
+#   description: My description goes here
+#   tags:
+#     - tag1
+#     - tag2
