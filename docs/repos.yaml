@@ -1,23 +1,35 @@
-- name: Runway by Onica
-  url: https://github.com/onicagroup/runway
-  description: AWS Backup
+- name: Docker
+  url: https://www.docker.com/
+  description: Docker helps developers build, share, and run applications anywhere — without tedious environment configuration or management.
   tags:
-    - aws
-    - iac-orchestrators
+    - docker
+    - containers
+    - microservices
 
-- name: Terragrunt for Terraform
-  url: https://terragrunt.gruntwork.io/docs/getting-started/quick-start/
-  description: Terraform module implementing AWS WAF V2.
+- name: Docker Compose
+  url: https://github.com/docker/compose
+  description: Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.
   tags:
-    - terraform
-    - iac-orchestrators
+    - docker
+    - containers
+    - microservices
+    - tools
 
-- name: Oh-my-ZSH
-  url: https://ohmyz.sh/
-  description: Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration.
+- name: GitHub Actions
+  url: https://docs.github.com/en/actions/quickstart
+  description: Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow.
   tags:
-    - shell
-    - zsh
+    - ci/cd
+    - github
+
+- name: Kubernetes
+  url: https://kubernetes.io/
+  description: Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+  tags:
+    - kubernetes
+    - containers
+    - microservices
+    - k8s
 
 - name: minio
   url: https://min.io/
@@ -27,21 +39,12 @@
     - distributed-storage
     - storage
 
-- name: ScoutSuite
-  url: https://github.com/nccgroup/ScoutSuite
-  description: Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
+- name: Oh-my-ZSH
+  url: https://ohmyz.sh/
+  description: Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration.
   tags:
-    - cloud-security
-    - tool
-    - devsecops
-    - tools
-
-- name: GitHub Actions
-  url: https://docs.github.com/en/actions/quickstart
-  description: Automate, customize, and execute your software development workflows right in your repository with GitHub Actions. You can discover, create, and share actions to perform any job you'd like, including CI/CD, and combine actions in a completely customized workflow.
-  tags:
-    - ci/cd
-    - github
+    - shell
+    - zsh
 
 - name: Prowler
   url: https://github.com/prowler-cloud/prowler
@@ -54,31 +57,37 @@
     - best-practices
     - tools
 
-- name: Docker
-  url: https://www.docker.com/
-  description: Docker helps developers build, share, and run applications anywhere — without tedious environment configuration or management.
+- name: Runway by Onica
+  url: https://github.com/onicagroup/runway
+  description: AWS Backup
   tags:
-    - docker
-    - containers
-    - microservices
+    - aws
+    - iac-orchestrators
 
-- name: Kubernetes
-  url: https://kubernetes.io/
-  description: Kubernetes, also known as K8s, is an open-source system for automating deployment, scaling, and management of containerized applications.
+- name: ScoutSuite
+  url: https://github.com/nccgroup/ScoutSuite
+  description: Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments.
   tags:
-    - kubernetes
-    - containers
-    - microservices
-    - k8s
-
-- name: Docker Compose
-  url: https://github.com/docker/compose
-  description: Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.
-  tags:
-    - docker
-    - containers
-    - microservices
+    - cloud-security
+    - tool
+    - devsecops
     - tools
+
+- name: Sitecore-Azure-Quickstart-Templates
+  url: https://github.com/Sitecore/Sitecore-Azure-Quickstart-Templates
+  description: This repo contains all currently available Azure Resource Manager templates for Sitecore
+  tags:
+    - azure
+    - sitecore
+    - terraform
+    - quickstart
+
+- name: Terragrunt for Terraform
+  url: https://terragrunt.gruntwork.io/docs/getting-started/quick-start/
+  description: Terraform module implementing AWS WAF V2.
+  tags:
+    - terraform
+    - iac-orchestrators
 
 - name: VisualStudio Code (vscode)
   url: https://code.visualstudio.com/
@@ -92,16 +101,6 @@
   tags:
     - vmware
     - python
-
-- name: Sitecore-Azure-Quickstart-Templates
-  url: https://github.com/Sitecore/Sitecore-Azure-Quickstart-Templates
-  description: This repo contains all currently available Azure Resource Manager templates for Sitecore
-  tags:
-    - azure
-    - sitecore
-    - terraform
-    - quickstart
-
 # - name: EXAMPLE
 #   url: https://example.tld
 #   description: My description goes here
