@@ -60,10 +60,13 @@
 
 - name: Runway by Onica
   url: https://github.com/onicagroup/runway
-  description: AWS Backup
+  description: Runway is a lightweight wrapper around infrastructure deployment (e.g. CloudFormation, Terraform, Serverless) & linting (e.g. yamllint) tools to ease management of per-environment configs & deployment.
   tags:
     - aws
     - iac-orchestrators
+    - cloudformation
+    - terraform
+    - serverless
 
 - name: ScoutSuite
   url: https://github.com/nccgroup/ScoutSuite
