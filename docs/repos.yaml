@@ -25,6 +25,7 @@
   tags:
     - s3
     - distributed-storage
+    - storage
 
 - name: ScoutSuite
   url: https://github.com/nccgroup/ScoutSuite
@@ -33,6 +34,7 @@
     - cloud-security
     - tool
     - devsecops
+    - tools
 
 - name: GitHub Actions
   url: https://docs.github.com/en/actions/quickstart
@@ -50,6 +52,7 @@
     - azure
     - gcp
     - best-practices
+    - tools
 
 - name: Docker
   url: https://www.docker.com/
@@ -75,12 +78,29 @@
     - docker
     - containers
     - microservices
+    - tools
 
 - name: VisualStudio Code (vscode)
   url: https://code.visualstudio.com/
   description: Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.
   tags:
     - IDE
+
+- name: vsphere-automation-sdk-python
+  url: https://github.com/vmware/vsphere-automation-sdk-python
+  description: vSphere Automation Python SDK has samples that use the vSphere Automation python client library
+  tags:
+    - vmware
+    - python
+
+- name: Sitecore-Azure-Quickstart-Templates
+  url: https://github.com/Sitecore/Sitecore-Azure-Quickstart-Templates
+  description: This repo contains all currently available Azure Resource Manager templates for Sitecore
+  tags:
+    - azure
+    - sitecore
+    - terraform
+    - quickstart
 
 # - name: EXAMPLE
 #   url: https://example.tld
