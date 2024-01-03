@@ -6,6 +6,7 @@
     - containers
     - microservices
 
+# 
 - name: Docker Compose
   url: https://github.com/docker/compose
   description: Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.
@@ -73,6 +74,16 @@
     - devsecops
     - tools
 
+- name: Serverless (sls) Framework
+  url: https://github.com/serverless/serverless
+  description: Serverless Framework – Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more!
+  tags:
+    - cloud-native
+    - serverless
+    - aws
+    - azure
+    - gcp
+
 - name: Sitecore-Azure-Quickstart-Templates
   url: https://github.com/Sitecore/Sitecore-Azure-Quickstart-Templates
   description: This repo contains all currently available Azure Resource Manager templates for Sitecore
@@ -81,6 +92,14 @@
     - sitecore
     - terraform
     - quickstart
+
+- name: Terraform AWS Beanstalk
+  url: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elastic_beanstalk_environment
+  description: Elastic Beanstalk allows you to deploy and manage applications in the AWS cloud without worrying about the infrastructure that runs those applications.
+  tags:
+    - App Services
+    - aws
+    - terraform
 
 - name: Terragrunt for Terraform
   url: https://terragrunt.gruntwork.io/docs/getting-started/quick-start/
