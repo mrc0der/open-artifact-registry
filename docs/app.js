@@ -25,7 +25,7 @@ function renderRepos(repos) {
         const repoCard = document.createElement('div');
         repoCard.classList.add('col-md-3', 'mb-4');
         repoCard.innerHTML = `
-            <div class="card">
+            <div class="card bg-light">
                 <div class="card-body">
                     <h5 class="card-title"><a href="${repo.url}">${repo.name}</a></h5>
                     <p class="card-text">${repo.description}</p>
