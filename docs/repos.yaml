@@ -11,3 +11,10 @@
   tags:
     - terraform
     - iac-orchestrators
+
+- name: Oh-my-ZSH
+  url: https://ohmyz.sh/
+  description: Oh My Zsh is a delightful, open source, community-driven framework for managing your Zsh configuration.
+  tags:
+    - shell
+    - zsh
