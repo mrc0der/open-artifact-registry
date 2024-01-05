@@ -123,6 +123,25 @@
   tags:
     - vmware
     - python
+
+- name: CI/CD for AKS apps with Azure Pipelines
+  url: https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-cicd-azure-pipelines
+  description: Microservices with AKS and Azure DevOps is a variant of Design a CI/CD pipeline using Azure DevOps. This article focuses on the AKS-specific facets of deploying AKS applications with Azure Pipelines.
+  tags:
+    - azure
+    - ci/cd
+    - aks
+    - kubernetes
+
+- name: Enterprise-grade logging on Azure
+  url: https://learn.microsoft.com/en-us/azure/architecture/reference-architectures/logging/enterprise-grade-logging
+  description: This reference architecture describes how to achieve enterprise-grade logging on Azure with a common logging method that enables end-to-end traceability across different applications. You can use these logs for troubleshooting and for finding insights in usage metrics and business events.
+  tags:
+    - azure
+    - azure functions
+    - logging
+
+
 # - name: EXAMPLE
 #   url: https://example.tld
 #   description: My description goes here
