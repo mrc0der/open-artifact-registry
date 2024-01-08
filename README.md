@@ -1,18 +1,15 @@
-# open-artifact-registry
+# rax-artifact-registry
 
-Welcome to the `open-artifact-registry`!
+Welcome to the `rax-artifact-registry`!
 
 This repo/tool/site aims to be a simple tool hosted via Github pages allowing me
-to index and search all the open-source and DevOps goodies out there.
-
-To be quite honest I was unable to get backstage.io working for my needs so we
-are here `>_<`
+to index and search all the open-source and Rackspace goodies out there.
 
 ## Requirements
 
 ### Running Locally
 
-- `Docker`
+- `docker`
 - `docker-compose`
 
 ### Hosting
@@ -29,5 +26,5 @@ the logic. I have created a `Makefile` with a few targets `up` and `down`.
 
 ## TODO
 
-- [ ] Move this to a prettier site with navigation.
+- [ ] Move this to a "prettier" site with navigation.
 - [ ] Share the site with the world!
