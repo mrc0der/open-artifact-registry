@@ -20,19 +20,23 @@ function renderRepos(repos) {
   const reposContainer = document.getElementById("repos");
   reposContainer.innerHTML = "";
 
+  //added sort
   repos.forEach((repo) => {
+    if (repo.description) {
+      repo_desc = repo.description.substring(0, 149) + "...";
+    } else {
+      repo_desc = repo.name;
+    }
     const repoCard = document.createElement("div");
     repoCard.classList.add("col-md-3", "mb-4");
+    console.log(repo.name);
     repoCard.innerHTML = `
             <div class="card bg-light">
                 <div class="card-body">
                     <h5 class="card-title"><a href="${repo.url}">${
       repo.name
     }</a></h5>
-                    <p class="card-text">${repo.description.substring(
-                      0,
-                      149
-                    )}...</p>
+                    <p class="card-text">${repo_desc}</p>
 
                     <!-- Display tags inside the repo card -->
                     <div class="tags">
@@ -112,8 +116,7 @@ function renderFilters(tags) {
             ${techVerticals
               .map(
                 (tag) => `
-                <span class="badge badge-danger mr-2 cursor-pointer" onclick="filterReposByTag('${tag}', repos)">${tag}</span>
-            `
+                <span class="badge badge-danger mr-2 cursor-pointer" onclick="filterReposByTag('${tag}', repos)">${tag}</span>`
               )
               .join(" ")}
             <br>

@@ -6,7 +6,6 @@
     - containers
     - microservices
 
-#
 - name: Docker Compose
   url: https://github.com/docker/compose
   description: Docker Compose is a tool for running multi-container applications on Docker defined using the Compose file format.
@@ -14,7 +13,7 @@
     - docker
     - containers
     - microservices
-    - tools
+    - tool
 
 - name: GitHub Actions
   url: https://docs.github.com/en/actions/quickstart
@@ -56,7 +55,7 @@
     - azure
     - gcp
     - best-practices
-    - tools
+    - tool
 
 - name: Runway by Onica
   url: https://github.com/onicagroup/runway
@@ -75,7 +74,7 @@
     - cloud-security
     - tool
     - devsecops
-    - tools
+    - tool
 
 - name: Serverless (sls) Framework
   url: https://github.com/serverless/serverless
@@ -141,10 +140,3503 @@
     - azure functions
     - logging
 
+############################ Rax Internal Links ################################
 
-# - name: EXAMPLE
-#   url: https://example.tld
-#   description: My description goes here
+- name: AWS Backup.tf
+  url: https://github.com/rax-ee/ee-terraform-modules/tree/main/aws-backup
+  description: AWS Backup
+  tags:
+    - aws
+    - aws-backup
+    - cmm-disaster-recovery
+    - "disaster recovery"
+
+- name: AWS WAF V2.tf
+  url: https://github.com/rax-ee/ee-terraform-modules/tree/main/wafv2
+  description: Terraform module implementing AWS WAF V2.
+  tags:
+    - aws
+    - aws-waf
+    - cmm-security
+    - cmm-design-principles
+    - security
+    - "design principles"
+
+- name: AWS WAF w/ Rate Limiting.tf
+  url: https://github.com/rax-ee/ee-terraform-modules/tree/main/waf_rate_limit_2000
+  description: Terraform module implementing AWS WAF with Rate Limiting
+  tags:
+    - aws
+    - cmm-security
+    - aws-waf
+    - security
+
+- name: AWS VPC Base.tf
+  url: https://github.com/rax-ee/ee-terraform-modules/tree/main/vpc_basenetwork
+  description: Terraform module implementing AWS VPC with best practices.
+  tags:
+    - aws
+    - cmm-design-principles
+    - aws-vpc
+    - "design principles"
+    - networking
+
+- name: docs-specs-cloud-servers-language-binding
+  url: https://github.com/rackerlabs/docs-specs-cloud-servers-language-binding
+  description:
+    Technical specifications for API developers creating language bindings
+    for Cloud Servers
+  tags: []
+
+- name: old-docs-cloudfiles
+  url: https://github.com/rackerlabs/old-docs-cloudfiles
+  description:
+    "Obsolete: Cloud Files Documentation (Introduction and Developer Guide)
+    -- This appears to be quite old and out of date, so it has been taken private."
+  tags: []
+
+- name: python-cloudservers
+  url: https://github.com/rackerlabs/python-cloudservers
+  description: Python API Binding for Cloud Servers
+  tags: []
+
+- name: carrierwave_demo
+  url: https://github.com/rackerlabs/carrierwave_demo
+  description:
+    A simple demo application showing how to use Carrierwave with Rackspace
+    Cloud Files
+  tags: []
+
+- name: groundcontrol
+  url: https://github.com/rackerlabs/groundcontrol
+  description: Firefox Integration
+  tags: []
+
+- name: ruby-cloudservers
+  url: https://github.com/rackerlabs/ruby-cloudservers
+  description: A Ruby interface to the Rackspace Cloud Servers API
+  tags: []
+
+- name: python-openstack
+  url: https://github.com/rackerlabs/python-openstack
+  description: OpenStack API bindings
+  tags: []
+
+- name: python-openstack.compute
+  url: https://github.com/rackerlabs/python-openstack.compute
+  description: OpenStack API bindings
+  tags: []
+
+- name: cloud_servers_vpc
+  url: https://github.com/rackerlabs/cloud_servers_vpc
+  description: Rackspace Virtual Private Cloud App
+  tags: []
+
+- name: chef_vpc_toolkit
+  url: https://github.com/rackerlabs/chef_vpc_toolkit
+  description: Chef VPC Toolkit
+  tags:
+    - chef
+
+- name: ruby-cloudlb
+  url: https://github.com/rackerlabs/ruby-cloudlb
+  description: A Ruby interface into the Rackspace Cloud Load Balancers product
+  tags:
+    - ruby
+
+- name: python-cloudlb
+  url: https://github.com/rackerlabs/python-cloudlb
+  description: A Python interface into the Rackspace Cloud Load Balancers product
+  tags: []
+
+- name: python-proboscis
+  url: https://github.com/rackerlabs/python-proboscis
+  description: Proboscis brings TestNG features to Python.
+  tags: []
+
+- name: monkeyfarm.rpm
+  url: https://github.com/rackerlabs/monkeyfarm.rpm
+  description: MonkeyFarm RPM Build Root
+  tags: []
+
+- name: reddwarf
+  url: https://github.com/rackerlabs/reddwarf
+  description:
+    This is an ancient version of Reddwarf which is kept here for historical
+    purposes. Check out the latest version of Reddwarf at https://github.com/stackforge/reddwarf.
+  tags:
+    - openstack
+
+- name: Tempo
+  url: https://github.com/rackerlabs/Tempo
+  description: RESTful API to Cron
+  tags: []
+
+- name: atom-hopper
+  url: https://github.com/rackerlabs/atom-hopper
+  description: ATOM Hopper - The Java ATOMpub Server
+  tags:
+    - java
+- name: repose
+  url: https://github.com/rackerlabs/repose
+  description: The powerful, programmable, API Middleware Platform
+  tags: []
+- name: python-clouddns
+  url: https://github.com/rackerlabs/python-clouddns
+  description: Python API binding to Rackspace Cloud DNS
+  tags:
+    - python
+- name: atlas-lb
+  url: https://github.com/rackerlabs/atlas-lb
+  description: "GitHub Mirror of OpenStack Loadbalancing (Atlas) "
+  tags:
+    - openstack
+- name: veracode-jenkins-plugin
+  url: https://github.com/rackerlabs/veracode-jenkins-plugin
+  description: veracode-jenkins-plugin
+  tags:
+    - jenkins
+- name: veracode-client-java
+  url: https://github.com/rackerlabs/veracode-client-java
+  description: veracode-client-java
+  tags: []
+- name: ruby-openstack-compute
+  url: https://github.com/rackerlabs/ruby-openstack-compute
+  description: Ruby bindings for Openstack Compute
+  tags: []
+- name: wadl-tools
+  url: https://github.com/rackerlabs/wadl-tools
+  description: WADL Tools
+  tags: []
+- name: ios-cloudfiles
+  url: https://github.com/rackerlabs/ios-cloudfiles
+  description: Rackspace Cloud Files SDK for iOS
+  tags: []
+- name: puppetlabs-ntp
+  url: https://github.com/rackerlabs/puppetlabs-ntp
+  description: Puppet module to manage the NTP service
+  tags: []
+- name: api-checker
+  url: https://github.com/rackerlabs/api-checker
+  description:
+    The API Checker library allows checking a rest servlet against a contract
+    written in WADL
+  tags: []
+- name: os_diskconfig_python_novaclient_ext
+  url: https://github.com/rackerlabs/os_diskconfig_python_novaclient_ext
+  description: Disk Config extension for python-novaclient
+  tags: []
+- name: rax_backup_schedule_python_novaclient_ext
+  url: https://github.com/rackerlabs/rax_backup_schedule_python_novaclient_ext
+  description: Backup Schedule Extension for python-novaclient
+  tags: []
+- name: rax_services_python_novaclient_ext
+  url: https://github.com/rackerlabs/rax_services_python_novaclient_ext
+  description: Services Plugin Extension for Novaclient
+  tags: []
+- name: rax_instance_backup_python_novaclient_ext
+  url: https://github.com/rackerlabs/rax_instance_backup_python_novaclient_ext
+  description: Instance Backup Extension for Novaclient
+  tags: []
+- name: os_deferred_delete_python_novaclient_ext
+  url: https://github.com/rackerlabs/os_deferred_delete_python_novaclient_ext
+  description: Deferred delete extension for Novaclient
+  tags: []
+- name: migrated_swift_debian
+  url: https://github.com/rackerlabs/migrated_swift_debian
+  description:
+    This has migrated to https://github.com/rackerlabs/swift/tree/rackspace_production/debian
+    but we'll keep this around for a while "just in case".
+  tags: []
+- name: openstack-guest-agents-windows-xenserver-old
+  url: https://github.com/rackerlabs/openstack-guest-agents-windows-xenserver-old
+  description: openstack-guest-agents-windows-xenserver-old
+  tags: []
+- name: clouddocs-maven-plugin
+  url: https://github.com/rackerlabs/clouddocs-maven-plugin
+  description: clouddocs-maven-plugin
+  tags: []
+- name: ruby-clouddb
+  url: https://github.com/rackerlabs/ruby-clouddb
+  description: A Ruby interface into the Rackspace Cloud Databases product
+  tags: []
+- name: SyntaxHighlighter
+  url: https://github.com/rackerlabs/SyntaxHighlighter
+  description:
+    SyntaxHighlighter is a fully functional self-contained code syntax
+    highlighter developed in JavaScript.
+  tags: []
+- name: openstack-guest-agents-windows-xenserver
+  url: https://github.com/rackerlabs/openstack-guest-agents-windows-xenserver
+  description: Openstack Windows Guest Agent for XenServer
+  tags: []
+- name: openstack-guest-agents-unix
+  url: https://github.com/rackerlabs/openstack-guest-agents-unix
+  description: Openstack Unix Guest Agent
+  tags: []
+- name: autonom
+  url: https://github.com/rackerlabs/autonom
+  description: Just Autonomous Components
+  tags: []
+- name: yagi
+  url: https://github.com/rackerlabs/yagi
+  description:
+    A modular OpenStack notification event processor/broadcaster written
+    in Python.
+  tags: []
+- name: swift
+  url: https://github.com/rackerlabs/swift
+  description: OpenStack Object Storage (Swift)
+  tags: []
+- name: melange
+  url: https://github.com/rackerlabs/melange
+  description: melange
+  tags: []
+- name: os_networksv2_python_novaclient_ext
+  url: https://github.com/rackerlabs/os_networksv2_python_novaclient_ext
+  description: Adds rackspace networks support to python-novaclient
+  tags: []
+- name: rackspace-auth-openstack
+  url: https://github.com/rackerlabs/rackspace-auth-openstack
+  description: Rackspace auth plugin for novaclient
+  tags: []
+- name: rackspace-novaclient
+  url: https://github.com/rackerlabs/rackspace-novaclient
+  description: Metapackage to install python-novaclient and Rackspace extensions
+  tags: []
+- name: atom-hopper-setup
+  url: https://github.com/rackerlabs/atom-hopper-setup
+  description:
+    setup scripts for installing atom hopper on a server for automated
+    testing
+  tags: []
+- name: stacktach
+  url: https://github.com/rackerlabs/stacktach
+  description: "Event-based Monitoring & Billing solution for OpenStack "
+  tags: []
+- name: rax_default_network_flags_python_novaclient_ext
+  url: https://github.com/rackerlabs/rax_default_network_flags_python_novaclient_ext
+  description: rackspace default network flags python-novaclient extension
+  tags: []
+- name: otter
+  url: https://github.com/rackerlabs/otter
+  description: Rackspace Auto Scale
+  tags: []
+- name: recap
+  url: https://github.com/rackerlabs/recap
+  description: A system status reporting tool
+  tags:
+    - bash
+    - linux
+    - logs
+    - recap
+- name: stacky
+  url: https://github.com/rackerlabs/stacky
+  description: Command line interface to StackTach
+  tags: []
+- name: mod_zeus
+  url: https://github.com/rackerlabs/mod_zeus
+  description:
+    Apache module for mod_zeus is an Apache module that can be used to
+    translate the IP that is returned in the X-Forwarded-For header so your log files
+    can correctly display the source IP that the request came from instead of just
+    the Load Balancer IP.
+  tags: []
+- name: silverberg
+  url: https://github.com/rackerlabs/silverberg
+  description: Silverberg is a Cassandra CQL3 library for Twisted Python
+  tags: []
+- name: ghint
+  url: https://github.com/rackerlabs/ghint
+  description: GitHub integration with internal LDAP. Role management and repo creation.
+  tags: []
+- name: sloggingo
+  url: https://github.com/rackerlabs/sloggingo
+  description: Basic stats and logging tools for Openstack swift (http://swift.openstack.org)
+  tags: []
+- name: cloudfiles-rsync-backup
+  url: https://github.com/rackerlabs/cloudfiles-rsync-backup
+  description: Copy of rsync code with patches/packaging for Rackspace Cloud Files.
+  tags: []
+- name: os_networks_python_novaclient_ext
+  url: https://github.com/rackerlabs/os_networks_python_novaclient_ext
+  description: Python Novaclient extension for managing tenant-centric networks
+  tags: []
+- name: qonos
+  url: https://github.com/rackerlabs/qonos
+  description: send_job_update
+  tags: []
+- name: hdp-cookbooks
+  url: https://github.com/rackerlabs/hdp-cookbooks
+  description: "Chef cookbooks for deploying Hortonworks HDP (Hadoop) "
+  tags: []
+- name: knife-alamo
+  url: https://github.com/rackerlabs/knife-alamo
+  description: Knife plugin for Rackspace Private Cloud Alamo
+  tags: []
+- name: objc-mailgun
+  url: https://github.com/rackerlabs/objc-mailgun
+  description: Objective-C SDK for Mailgun
+  tags: []
+- name: image_backup
+  url: https://github.com/rackerlabs/image_backup
+  description:
+    A script to enable you to schedule regular backup images of your Cloud
+    Servers.
+  tags: []
+- name: fog.github.com
+  url: https://github.com/rackerlabs/fog.github.com
+  description: fog.io
+  tags: []
+- name: curryproxy
+  url: https://github.com/rackerlabs/curryproxy
+  description:
+    A fast and performant proxy and aggregator for querying multiple instances
+    of an API spread across globally distributed data centers.
+  tags: []
+- name: rax_scheduled_images_python_novaclient_ext
+  url: https://github.com/rackerlabs/rax_scheduled_images_python_novaclient_ext
+  description: Nova client extension to the scheduled images Nova API extension
+  tags: []
+- name: cloudfiles-rsync
+  url: https://github.com/rackerlabs/cloudfiles-rsync
+  description: cloudfiles-rsync
+  tags: []
+- name: carrierwave
+  url: https://github.com/rackerlabs/carrierwave
+  description:
+    Classier solution for file uploads for Rails, Sinatra and other Ruby
+    web frameworks
+  tags: []
+- name: devsite
+  url: https://github.com/rackerlabs/devsite
+  description: Rackspace Developer Site
+  tags: []
+- name: github-integration-scripts
+  url: https://github.com/rackerlabs/github-integration-scripts
+  description: "A collection of NodeJS scripts for integrating with Github.  "
+  tags: []
+- name: zk-ultralight
+  url: https://github.com/rackerlabs/zk-ultralight
+  description: Ultralight locking for ZooKeeper
+  tags: []
+- name: boot.rackspace.com
+  url: https://github.com/rackerlabs/boot.rackspace.com
+  description: "This repo is no longer maintained, see:"
+  tags: []
+- name: eventlet
+  url: https://github.com/rackerlabs/eventlet
+  description: Concurrent networking library for Python (official mirror)
+  tags: []
+- name: rore
+  url: https://github.com/rackerlabs/rore
+  description: A command line tool for working with Redmine
+  tags: []
+- name: cloud_code_samples
+  url: https://github.com/rackerlabs/cloud_code_samples
+  description: A collection of code samples for working with the Rackspace Cloud.
+  tags: []
+- name: rax_rails_tutorial
+  url: https://github.com/rackerlabs/rax_rails_tutorial
+  description: rax_rails_tutorial
+  tags: []
+- name: jclouds-examples
+  url: https://github.com/rackerlabs/jclouds-examples
+  description: Read-only mirror of ASF Git Repo for jclouds examples
+  tags: []
+- name: jclouds-labs-openstack
+  url: https://github.com/rackerlabs/jclouds-labs-openstack
+  description: Read-only mirror of ASF Git Repo for jclouds labs-openstack
+  tags: []
+- name: knife-openstack
+  url: https://github.com/rackerlabs/knife-openstack
+  description: Opscode Chef knife plug-in for OpenStack
+  tags: []
+- name: serverherald
+  url: https://github.com/rackerlabs/serverherald
+  description: serverherald
+  tags: []
+- name: lunr
+  url: https://github.com/rackerlabs/lunr
+  description: lunr
+  tags: []
+- name: lunrdriver
+  url: https://github.com/rackerlabs/lunrdriver
+  description: lunrdriver
+  tags: []
+- name: jclouds-labs
+  url: https://github.com/rackerlabs/jclouds-labs
+  description: Read-only mirror of ASF Git Repo for jclouds labs
+  tags: []
+- name: cbu-sdk-python
+  url: https://github.com/rackerlabs/cbu-sdk-python
+  description: Python bindings for the Cloud Backup API
+  tags: []
+- name: bobby
+  url: https://github.com/rackerlabs/bobby
+  description: bobby
+  tags: []
+- name: deproxy
+  url: https://github.com/rackerlabs/deproxy
+  description: Testing framework for HTTP proxies.
+  tags: []
+- name: rackspace_cinder_extensions
+  url: https://github.com/rackerlabs/rackspace_cinder_extensions
+  description:
+    cinder extensions created by rackers to enhance operations and the
+    customer experience
+  tags: []
+- name: ruby-sdk-training
+  url: https://github.com/rackerlabs/ruby-sdk-training
+  description: ruby-sdk-training
+  tags: []
+- name: csi-marconi
+  url: https://github.com/rackerlabs/csi-marconi
+  description: Load & Security tests for Marconi
+  tags: []
+- name: pipeline
+  url: https://github.com/rackerlabs/pipeline
+  description: Simple & Opinionated build server built around the concept of the pipeline.
+  tags: []
+- name: jclouds-chef
+  url: https://github.com/rackerlabs/jclouds-chef
+  description: Read-only mirror of ASF Git Repo for jclouds chef
+  tags: []
+- name: heat-templates
+  url: https://github.com/rackerlabs/heat-templates
+  description: heat-templates
+  tags: []
+- name: gen_batch
+  url: https://github.com/rackerlabs/gen_batch
+  description: A batch job running library for embedded Erlang/OTP.
+  tags: []
+- name: gen_script
+  url: https://github.com/rackerlabs/gen_script
+  description: "A system script runner for Erlang/OTP. "
+  tags: []
+- name: jclouds-labs-google
+  url: https://github.com/rackerlabs/jclouds-labs-google
+  description: Read-only mirror of ASF Git Repo for jclouds labs-google
+  tags: []
+- name: jclouds-cli
+  url: https://github.com/rackerlabs/jclouds-cli
+  description: Read-only mirror of ASF Git Repo for jclouds cli
+  tags: []
+- name: jclouds-karaf
+  url: https://github.com/rackerlabs/jclouds-karaf
+  description: Read-only mirror of ASF Git Repo for jclouds karaf
+  tags: []
+- name: cloudfiles-haproxy
+  url: https://github.com/rackerlabs/cloudfiles-haproxy
+  description: Haproxy
+  tags: []
+- name: jclouds-site
+  url: https://github.com/rackerlabs/jclouds-site
+  description: Mirror of Apache jclouds site source repo
+  tags: []
+- name: railsgirls-app
+  url: https://github.com/rackerlabs/railsgirls-app
+  description: Completed Railgirls Workshop App
+  tags: []
+- name: stud
+  url: https://github.com/rackerlabs/stud
+  description: The Scalable TLS Unwrapping Daemon
+  tags: []
+- name: encore-ui
+  url: https://github.com/rackerlabs/encore-ui
+  description: UI Framework for Encore
+  tags:
+    - angularjs
+    - components
+    - directives
+    - ui
+- name: romper
+  url: https://github.com/rackerlabs/romper
+  description: Playground for Storm-based autoscaling
+  tags: []
+- name: horizon
+  url: https://github.com/rackerlabs/horizon
+  description:
+    Horizon is a Django-based project aimed at providing a complete OpenStack
+    Dashboard along with an extensible framework for building new dashboards from
+    reusable components.
+  tags: []
+- name: posthaste
+  url: https://github.com/rackerlabs/posthaste
+  description:
+    OpenStack Swift threaded operation utility for Uploading, Downloading
+    and Deleting
+  tags: []
+- name: scala-workshop
+  url: https://github.com/rackerlabs/scala-workshop
+  description: scala-workshop
+  tags: []
+- name: rax-mobile-client
+  url: https://github.com/rackerlabs/rax-mobile-client
+  description: rax-mobile-client
+  tags: []
+- name: rax-mobile-sdk
+  url: https://github.com/rackerlabs/rax-mobile-sdk
+  description: rax-mobile-sdk
+  tags: []
+- name: foghorn
+  url: https://github.com/rackerlabs/foghorn
+  description: notification service
+  tags: []
+- name: olink-maven-plugin
+  url: https://github.com/rackerlabs/olink-maven-plugin
+  description: olink-maven-plugin
+  tags: []
+- name: cache-busters
+  url: https://github.com/rackerlabs/cache-busters
+  description: cache-busters
+  tags: []
+- name: rummnibus
+  url: https://github.com/rackerlabs/rummnibus
+  description: Create full-stack platform-specific packages for rumm
+  tags: []
+- name: vagrantstack
+  url: https://github.com/rackerlabs/vagrantstack
+  description: OpenStack Grizzly 10 Minute Install
+  tags: []
+- name: dockerstack
+  url: https://github.com/rackerlabs/dockerstack
+  description: OpenStack services containerized to be run in Docker
+  tags: []
+- name: stoptheline
+  url: https://github.com/rackerlabs/stoptheline
+  description: JAVA app that serves us web pages of Jenkins build results
+  tags: []
+- name: bit_toggle
+  url: https://github.com/rackerlabs/bit_toggle
+  description: An elementary feature toggle implementation
+  tags: []
+- name: python-atomhopper
+  url: https://github.com/rackerlabs/python-atomhopper
+  description: Python language bindings for Atom Hopper
+  tags: []
+- name: racker-rush
+  url: https://github.com/rackerlabs/racker-rush
+  description: Rackspace Rush Promotional Site
+  tags: []
+- name: canon-jenkins
+  url: https://github.com/rackerlabs/canon-jenkins
+  description: Jenkins Rackspace Cannon Theme
+  tags: []
+- name: swift-ppc
+  url: https://github.com/rackerlabs/swift-ppc
+  description: "OpenStack Swift Partition Power Calculator "
+  tags: []
+- name: canon
+  url: https://github.com/rackerlabs/canon
+  description:
+    A front-end framework for fast & consistent development of Rackspace
+    UIs.
+  tags: []
+- name: teeth-overlord
+  url: https://github.com/rackerlabs/teeth-overlord
+  description: The centralized automation system for Teeth.
+  tags: []
+- name: teeth-agent
+  url: https://github.com/rackerlabs/teeth-agent
+  description: The Teeth on-chassis provisioning and decommissioning agent.
+  tags: []
+- name: canon-angular
+  url: https://github.com/rackerlabs/canon-angular
+  description: Angular bindings for Rackspace Canon.
+  tags: []
+- name: canon-jquery
+  url: https://github.com/rackerlabs/canon-jquery
+  description: jQuery plugins for Rackspace Canon.
+  tags: []
+- name: tools
+  url: https://github.com/rackerlabs/tools
+  description:
+    TEMPORARY - Repository holding scripts for user consumption to fix
+    issues mentioned on Wikis/FAQs
+  tags: []
+- name: mimic
+  url: https://github.com/rackerlabs/mimic
+  description: An API mock service
+  tags: []
+- name: opc-training-rsted
+  url: https://github.com/rackerlabs/opc-training-rsted
+  description: Online reStructuredText editor
+  tags: []
+- name: postgresql-cookbook
+  url: https://github.com/rackerlabs/postgresql-cookbook
+  description: Development repository for Opscode Cookbook postgresql
+  tags: []
+- name: marconi
+  url: https://github.com/rackerlabs/marconi
+  description: Rackspace Cloud Queues Source
+  tags: []
+- name: quark
+  url: https://github.com/rackerlabs/quark
+  description: quark
+  tags: []
+- name: raxio
+  url: https://github.com/rackerlabs/raxio
+  description: RaxIO 2014 Website
+  tags: []
+- name: rax-vsix
+  url: https://github.com/rackerlabs/rax-vsix
+  description: Visual Studio extension for Rackspace products
+  tags: []
+- name: aiclib
+  url: https://github.com/rackerlabs/aiclib
+  description: Python URLlib3 based NVP client
+  tags: []
+- name: performance_cloud_benchmarks
+  url: https://github.com/rackerlabs/performance_cloud_benchmarks
+  description: Rackspace Performance Cloud Benchmark Data
+  tags: []
+- name: clj-rackspace
+  url: https://github.com/rackerlabs/clj-rackspace
+  description: Pure Clojure language bindings for the Rackspace Cloud
+  tags: []
+- name: cornerstone
+  url: https://github.com/rackerlabs/cornerstone
+  description: cornerstone
+  tags: []
+- name: cbs-formatter
+  url: https://github.com/rackerlabs/cbs-formatter
+  description: cbs-formatter
+  tags: []
+- name: kazoo
+  url: https://github.com/rackerlabs/kazoo
+  description:
+    Kazoo is a high-level Python library that makes it easier to use Apache
+    Zookeeper.
+  tags: []
+- name: rcrun
+  url: https://github.com/rackerlabs/rcrun
+  description: Launch scripts after Rackconnect v2 automation is complete
+  tags: []
+- name: polytrix
+  url: https://github.com/rackerlabs/polytrix
+  description: Polyglot Testing Matrix
+  tags: []
+- name: txkazoo
+  url: https://github.com/rackerlabs/txkazoo
+  description: Twisted wrapper for Kazoo library
+  tags: []
+- name: ceilometer-load-tests
+  url: https://github.com/rackerlabs/ceilometer-load-tests
+  description: Load tests for Ceilometer storage drivers
+  tags: []
+- name: instrumented-ceilometer
+  url: https://github.com/rackerlabs/instrumented-ceilometer
+  description: Branches in this repo are for load-testing storage driver changes
+  tags: []
+- name: teeth-rest
+  url: https://github.com/rackerlabs/teeth-rest
+  description: Common REST components for Teeth
+  tags: []
+- name: vagrant-solum-dev
+  url: https://github.com/rackerlabs/vagrant-solum-dev
+  description: Vagrant environment for Solum development
+  tags: []
+- name: PoshNova
+  url: https://github.com/rackerlabs/PoshNova
+  description: PoshNova
+  tags: []
+- name: wonton
+  url: https://github.com/rackerlabs/wonton
+  description:
+    Gevent-based, multithreaded tool for bulk transferring objects from
+    Amazon S3 to Rackspace Cloud Files or vice versa
+  tags: []
+- name: ohai-plugins
+  url: https://github.com/rackerlabs/ohai-plugins
+  description: Chef Ohai Plugins
+  tags: []
+- name: puppet-rscfacts
+  url: https://github.com/rackerlabs/puppet-rscfacts
+  description: Custom Facter Facts for the Rackspace Cloud
+  tags: []
+- name: hydra
+  url: https://github.com/rackerlabs/hydra
+  description: hydra
+  tags: []
+- name: canon-bower
+  url: https://github.com/rackerlabs/canon-bower
+  description: Shim repository for Canon.
+  tags: []
+- name: VersionHub
+  url: https://github.com/rackerlabs/VersionHub
+  description: Centralized source to manage internal rackspace service dependencies.
+  tags: []
+- name: multi-cloud-workshop
+  url: https://github.com/rackerlabs/multi-cloud-workshop
+  description: Cloud Portability With Multi-Cloud Toolkits workshop
+  tags: []
+- name: multi-cloud-demo-app
+  url: https://github.com/rackerlabs/multi-cloud-demo-app
+  description: Demonstration Rails Application for the Multi-Cloud Workshop
+  tags: []
+- name: canon-snippets
+  url: https://github.com/rackerlabs/canon-snippets
+  description: Canon snippets for Sublime Text.
+  tags: []
+- name: docs-cloud-orchestration
+  url: https://github.com/rackerlabs/docs-cloud-orchestration
+  description: Developer documentation source for Rackspace-specific Cloud Orchestration
+  tags: []
+- name: node-ah-hound
+  url: https://github.com/rackerlabs/node-ah-hound
+  description: Distributed Node.js AtomHopper Consumer
+  tags: []
+- name: rax_workstation
+  url: https://github.com/rackerlabs/rax_workstation
+  description:
+    A platform to allow developers and operations to kick the tires on
+    various rackspace cloud APIs, automation tools, and command line utilities
+  tags: []
+- name: ansible_rax_demo
+  url: https://github.com/rackerlabs/ansible_rax_demo
+  description: A simple playbook to create a cloudserver and run a command on it.
+  tags: []
+- name: raxcloud_queue_demo
+  url: https://github.com/rackerlabs/raxcloud_queue_demo
+  description: A simple demo of the rackspace cloud queues
+  tags: []
+- name: heat-tutorial
+  url: https://github.com/rackerlabs/heat-tutorial
+  description:
+    Tools, tips, and how-to's about using OpenStack Heat, Rackspace Fusion,
+    and other neat Orchestration bits on Rackspace Cloud.
+  tags: []
+- name: deuce
+  url: https://github.com/rackerlabs/deuce
+  description: Block-Level De-duplication as a Service
+  tags: []
+- name: plight
+  url: https://github.com/rackerlabs/plight
+  description: An application agnostic tool to represent node availability.
+  tags: []
+- name: satori
+  url: https://github.com/rackerlabs/satori
+  description: Configuration Discovery for OpenStack
+  tags: []
+- name: ascend
+  url: https://github.com/rackerlabs/ascend
+  description: Scriptable autoscale setup
+  tags: []
+- name: jigl
+  url: https://github.com/rackerlabs/jigl
+  description: Jira integration of Gerrit and Launchpad
+  tags: []
+- name: python-libvhd
+  url: https://github.com/rackerlabs/python-libvhd
+  description: libvhd module to interface with xen's vhd library.
+  tags: []
+- name: stackslurp
+  url: https://github.com/rackerlabs/stackslurp
+  description:
+    Grabs questions from a StackExchange site and posts metadata about
+    them to CloudQueues
+  tags: []
+- name: rssslurp
+  url: https://github.com/rackerlabs/rssslurp
+  description: Slurp from RSS feeds to CloudQueues
+  tags: []
+- name: blktap
+  url: https://github.com/rackerlabs/blktap
+  description: blktap, vhd stuff
+  tags: []
+- name: ironic-teeth-driver
+  url: https://github.com/rackerlabs/ironic-teeth-driver
+  description: Ironic Deploy driver that uses the Teeth Agent.
+  tags: []
+- name: sdk_workshops
+  url: https://github.com/rackerlabs/sdk_workshops
+  description: Source code for SDK training workshops
+  tags: []
+- name: PyPerf
+  url: https://github.com/rackerlabs/PyPerf
+  description: Profiler interface and core profiler implementations.
+  tags: []
+- name: vagrant-mongodb
+  url: https://github.com/rackerlabs/vagrant-mongodb
+  description: " Creation of MongoDB instances for testing and dev"
+  tags: []
+- name: rackervision
+  url: https://github.com/rackerlabs/rackervision
+  description:
+    Watch and share your organization's tech talks, company events, screencasts
+    in stunning RackerVision!
+  tags: []
+- name: documentation
+  url: https://github.com/rackerlabs/documentation
+  description: ObjectRocket Documentation
+  tags: []
+- name: developer.rackspace.com
+  url: https://github.com/rackerlabs/developer.rackspace.com
+  description: Gen 3 of the developer.rackspace.com Portal
+  tags: []
+- name: todo-angular-test
+  url: https://github.com/rackerlabs/todo-angular-test
+  description: Take home test for UI Software Developers
+  tags: []
+- name: docs-cloud-backup
+  url: https://github.com/rackerlabs/docs-cloud-backup
+  description: Developer documentation source for Rackspace Cloud Backup API
+  tags: []
+- name: docs-cloud-big-data
+  url: https://github.com/rackerlabs/docs-cloud-big-data
+  description: Developer documentation source for Rackspace Cloud Big Data
+  tags: []
+- name: docs-cloud-files
+  url: https://github.com/rackerlabs/docs-cloud-files
+  description: Developer documentation source for Rackspace Cloud Files API
+  tags: []
+- name: docs-cloud-block-storage
+  url: https://github.com/rackerlabs/docs-cloud-block-storage
+  description: Developer documentation source for Rackspace Cloud Block Storage
+  tags: []
+- name: docs-cloud-queues
+  url: https://github.com/rackerlabs/docs-cloud-queues
+  description: Developer documentation source for Rackspace Cloud Queues API
+  tags: []
+- name: repose-http-logging-slf4j
+  url: https://github.com/rackerlabs/repose-http-logging-slf4j
+  description: repose filter that sends http logging through slf4j
+  tags: []
+- name: encore-ui-bower
+  url: https://github.com/rackerlabs/encore-ui-bower
+  description: "A repository to hold encore-ui releases for Bower "
+  tags: []
+- name: atom-cloud-sync
+  url: https://github.com/rackerlabs/atom-cloud-sync
+  description: Sync Files to Cloud Storage from Atom
+  tags: []
+- name: ironic
+  url: https://github.com/rackerlabs/ironic
+  description: "Mirror of OpenStack Ironic. You probably want upstream:"
+  tags: []
+- name: repose-irc-bot
+  url: https://github.com/rackerlabs/repose-irc-bot
+  description: The Repose IRC bot, very simple
+  tags: []
+- name: ironic-neutron-plugin
+  url: https://github.com/rackerlabs/ironic-neutron-plugin
+  description: ironic-neutron-plugin
+  tags: []
+- name: todo-rails-test
+  url: https://github.com/rackerlabs/todo-rails-test
+  description: To-Do Take Home Test (Rails Version)
+  tags: []
+- name: OpenStack-Overlay
+  url: https://github.com/rackerlabs/OpenStack-Overlay
+  description: OpenStack-Overlay
+  tags: []
+- name: pecan
+  url: https://github.com/rackerlabs/pecan
+  description:
+    A WSGI object-dispatching web framework, designed to be lean and fast
+    with few dependencies.
+  tags: []
+- name: docs-auto-scale
+  url: https://github.com/rackerlabs/docs-auto-scale
+  description: docs-auto-scale
+  tags: []
+- name: docs-cloud-networks
+  url: https://github.com/rackerlabs/docs-cloud-networks
+  description: Developer documentation source for Rackspace Cloud Networks API
+  tags: []
+- name: cornerstone-2
+  url: https://github.com/rackerlabs/cornerstone-2
+  description: Cornerstone 2
+  tags: []
+- name: docs-api-reference
+  url: https://github.com/rackerlabs/docs-api-reference
+  description: docs-api-reference
+  tags: []
+- name: cassandra-metrics-reporter
+  url: https://github.com/rackerlabs/cassandra-metrics-reporter
+  description:
+    A component that bundles a 3rd party metrics-reporter-config jar together
+    with the necessary dependencies
+  tags: []
+- name: rackspace_wwpt
+  url: https://github.com/rackerlabs/rackspace_wwpt
+  description:
+    Deploy Octopus Tentacle and registers with the DevOpsGuys in prep for
+    WorldPageTest deployment
+  tags: []
+- name: cyo
+  url: https://github.com/rackerlabs/cyo
+  description: Racker Choose Your Own Adventure Project
+  tags: []
+- name: PoSh-Ohai
+  url: https://github.com/rackerlabs/PoSh-Ohai
+  description: Powershell interpretation of opscode's ohai
+  tags: []
+- name: docs-cloud-keep
+  url: https://github.com/rackerlabs/docs-cloud-keep
+  description: "DEPRECATED: Rackspace Cloud Keep API documentation"
+  tags: []
+- name: garcon
+  url: https://github.com/rackerlabs/garcon
+  description: garcon
+  tags: []
+- name: pycon-workshop
+  url: https://github.com/rackerlabs/pycon-workshop
+  description: PyCon 2014 Workshop
+  tags: []
+- name: ironic-python-agent
+  url: https://github.com/rackerlabs/ironic-python-agent
+  description: A python agent for provisioning and deprovisioning Bare Metal servers.
+  tags: []
+- name: solum-m1-demo
+  url: https://github.com/rackerlabs/solum-m1-demo
+  description: Solum Milestone1 Demo
+  tags: []
+- name: angular-bootstrap-nav
+  url: https://github.com/rackerlabs/angular-bootstrap-nav
+  description:
+    AngularJS (Angular) directive for Twitter's Bootstrap's Navbar component.
+    Requires angular-ui-bootstrap and bootstrap css.  http://rackerlabs.github.io/angular-bootstrap-nav
+  tags: []
+- name: peril
+  url: https://github.com/rackerlabs/peril
+  description: Match developers with questions with Rackers with answers!
+  tags: []
+- name: solum-horizon
+  url: https://github.com/rackerlabs/solum-horizon
+  description: Horizon plugin for Solum
+  tags: []
+- name: solum-m2demo-ui
+  url: https://github.com/rackerlabs/solum-m2demo-ui
+  description: Solum Milestone 2 Demo UI
+  tags: []
+- name: cloudfeeds-repose-filters
+  url: https://github.com/rackerlabs/cloudfeeds-repose-filters
+  description:
+    "Custom Repose filters for Cloud Feeds.  Currently in sustaining mode
+    as deployed within Rackspace. "
+  tags: []
+- name: hacknightIdeas
+  url: https://github.com/rackerlabs/hacknightIdeas
+  description: hacknightIdeas
+  tags: []
+- name: cloudfeeds-atomhopper
+  url: https://github.com/rackerlabs/cloudfeeds-atomhopper
+  description:
+    "Cloud Feeds Atom Hopper Adapter.  Currently in sustaining mode as
+    deployed within Rackspace. "
+  tags: []
+- name: docs-cloud-images
+  url: https://github.com/rackerlabs/docs-cloud-images
+  description: Developer documentation source for Rackspace Cloud Images API
+  tags: []
+- name: rs-popover
+  url: https://github.com/rackerlabs/rs-popover
+  description: Angular directive for Canon popovers.
+  tags: []
+- name: puppet-repose
+  url: https://github.com/rackerlabs/puppet-repose
+  description:
+    This module provides a re-usable and environment agnostic control of
+    Repose
+  tags: []
+- name: cookbook-repose
+  url: https://github.com/rackerlabs/cookbook-repose
+  description: This cookbook manages Repose.
+  tags: []
+- name: cloudfeeds-catalog
+  url: https://github.com/rackerlabs/cloudfeeds-catalog
+  description:
+    "A simple app serving feeds catalog.  Currently in sustaining mode
+    as deployed within Rackspace. "
+  tags: []
+- name: jonah
+  url: https://github.com/rackerlabs/jonah
+  description: jonah
+  tags: []
+- name: content-feedback-services
+  url: https://github.com/rackerlabs/content-feedback-services
+  description: content-feedback-services
+  tags: []
+- name: ansible-idempotent-provisioning
+  url: https://github.com/rackerlabs/ansible-idempotent-provisioning
+  description: Simple example of idempotent server provisioning with Ansible on Rackspace.
+  tags: []
+- name: mailslurp
+  url: https://github.com/rackerlabs/mailslurp
+  description: Slurp from Mailgun to Cloud Queues
+  tags: []
+- name: solum-example-app-ghost
+  url: https://github.com/rackerlabs/solum-example-app-ghost
+  description: Ghost for Solum
+  tags: []
+- name: docs-cloud-dns
+  url: https://github.com/rackerlabs/docs-cloud-dns
+  description: Developer documentation source for Rackspace Cloud DNS API
+  tags: []
+- name: hubslurp
+  url: https://github.com/rackerlabs/hubslurp
+  description: GitHub Issues slurper for Peril
+  tags: []
+- name: docs-intro-to-rackspace-cloud
+  url: https://github.com/rackerlabs/docs-intro-to-rackspace-cloud
+  description: Introduction to Rackspace Cloud
+  tags: []
+- name: docs-core-infra-user-guide
+  url: https://github.com/rackerlabs/docs-core-infra-user-guide
+  description:
+    User documentation source for Rackspace Cloud Core Infrastructure Services
+    User Guide
+  tags: []
+- name: OpenForum
+  url: https://github.com/rackerlabs/OpenForum
+  description: OpenForum
+  tags: []
+- name: docs-cloud-load-balancers
+  url: https://github.com/rackerlabs/docs-cloud-load-balancers
+  description: Developer documentation source for Rackspace Cloud Load Balancers API
+  tags: []
+- name: pelican-events
+  url: https://github.com/rackerlabs/pelican-events
+  description: A plugin for Pelican which exposes the concept of (non-software) events
+  tags: []
+- name: pelican-tutorial
+  url: https://github.com/rackerlabs/pelican-tutorial
+  description: A pelican plugin for generating tutorials
+  tags: []
+- name: docs-cloud-databases
+  url: https://github.com/rackerlabs/docs-cloud-databases
+  description: Developer documentation source for Rackspace Cloud Databases API
+  tags: []
+- name: onmetal-ironic-hardware-manager
+  url: https://github.com/rackerlabs/onmetal-ironic-hardware-manager
+  description: Hardware Manager plugin for IPA
+  tags: []
+- name: solum-specs
+  url: https://github.com/rackerlabs/solum-specs
+  description: Solum Design Specifications
+  tags: []
+- name: marconicafe
+  url: https://github.com/rackerlabs/marconicafe
+  description: marconicafe
+  tags: []
+- name: loadscale
+  url: https://github.com/rackerlabs/loadscale
+  description: Autoscale Load Response
+  tags: []
+- name: repose-infrastructure-ng
+  url: https://github.com/rackerlabs/repose-infrastructure-ng
+  description: Next Generation of Repose Puppet Manifests
+  tags: []
+- name: ncclient
+  url: https://github.com/rackerlabs/ncclient
+  description: Python library for NETCONF clients
+  tags: []
+- name: platform-test-apps
+  url: https://github.com/rackerlabs/platform-test-apps
+  description:
+    Sample application to test the various components of a application
+    stack.
+  tags: []
+- name: cbu-phoenixcafe
+  url: https://github.com/rackerlabs/cbu-phoenixcafe
+  description: cbu-phoenixcafe
+  tags: []
+- name: rackbook
+  url: https://github.com/rackerlabs/rackbook
+  description: oXygen framework for working with DocBook documents
+  tags: []
+- name: cookbook-openstack-paas
+  url: https://github.com/rackerlabs/cookbook-openstack-paas
+  description: "Chef Cookbook for Installing Solum "
+  tags: []
+- name: redrax
+  url: https://github.com/rackerlabs/redrax
+  description: Ruby client to the Rackspace cloud
+  tags: []
+- name: pyopenssl
+  url: https://github.com/rackerlabs/pyopenssl
+  description: Python interface to the OpenSSL library
+  tags: []
+- name: rccc
+  url: https://github.com/rackerlabs/rccc
+  description: Rackspace Cloud Coding Challenge
+  tags: []
+- name: rs-section
+  url: https://github.com/rackerlabs/rs-section
+  description: Angular directive for Canon sections.
+  tags: []
+- name: finding_dory
+  url: https://github.com/rackerlabs/finding_dory
+  description:
+    A Stevedore/Pecan based Python API reference project for bootstrapping
+    new OpenStack compatible projects
+  tags: []
+- name: poppycdn.org
+  url: https://github.com/rackerlabs/poppycdn.org
+  description: "Public Website for poppycdn: "
+  tags: []
+- name: rs-tooltip
+  url: https://github.com/rackerlabs/rs-tooltip
+  description: Angular directive for Canon tooltips.
+  tags: []
+- name: rax-elk
+  url: https://github.com/rackerlabs/rax-elk
+  description: Rackspace ELK Stack for easy logging
+  tags: []
+- name: lineman
+  url: https://github.com/rackerlabs/lineman
+  description:
+    Lineman helps you build fat-client JavaScript apps. It produces happiness
+    by building assets, mocking servers, running specs on every file change
+  tags: []
+- name: rs-regionselector
+  url: https://github.com/rackerlabs/rs-regionselector
+  description: Angular region selector, server table list, and tooltips
+  tags: []
+- name: saml-generator
+  url: https://github.com/rackerlabs/saml-generator
+  description: saml-generator
+  tags: []
+- name: impacket
+  url: https://github.com/rackerlabs/impacket
+  description: impacket
+  tags: []
+- name: foodcritic-rackspace-rules
+  url: https://github.com/rackerlabs/foodcritic-rackspace-rules
+  description: Foodcritic rules for rackops cookbooks or stacks
+  tags: []
+- name: lamp
+  url: https://github.com/rackerlabs/lamp
+  description: Rackspace Heat template to setup a LAMP stack on a single Linux server
+  tags: []
+- name: humanitarian-openstack
+  url: https://github.com/rackerlabs/humanitarian-openstack
+  description: humanitarian-openstack
+  tags: []
+- name: arborlabs_client
+  url: https://github.com/rackerlabs/arborlabs_client
+  description: "Client library to Solum API. See: https://wiki.openstack.org/wiki/Solum"
+  tags: []
+- name: docs-cloud-cdn
+  url: https://github.com/rackerlabs/docs-cloud-cdn
+  description: Developer documentation source for Rackspace CDN API
+  tags: []
+- name: simple-mock-api-server
+  url: https://github.com/rackerlabs/simple-mock-api-server
+  description: Totally ripped off expressJS simple mock api server
+  tags: []
+- name: encore-ui-nav
+  url: https://github.com/rackerlabs/encore-ui-nav
+  description: Default navigation items for Encore
+  tags: []
+- name: puppet-python-sonar
+  url: https://github.com/rackerlabs/puppet-python-sonar
+  description: Puppet module for SonarQube with Python and Flake8
+  tags: []
+- name: barricade
+  url: https://github.com/rackerlabs/barricade
+  description: barricade
+  tags: []
+- name: toy_story
+  url: https://github.com/rackerlabs/toy_story
+  description: A Gamified Dashboard and API for Github Repositories
+  tags: []
+- name: sonar-python
+  url: https://github.com/rackerlabs/sonar-python
+  description: sonar-python
+  tags: []
+- name: python-neutronclient
+  url: https://github.com/rackerlabs/python-neutronclient
+  description: Python API Library for Quantum
+  tags: []
+- name: rack.to
+  url: https://github.com/rackerlabs/rack.to
+  description: rack.to URL shortener based on yourls
+  tags: []
+- name: wadl2swagger
+  url: https://github.com/rackerlabs/wadl2swagger
+  description: wadl2swagger
+  tags:
+    - swagger
+- name: osrc
+  url: https://github.com/rackerlabs/osrc
+  description: The Open Source Report Card
+  tags: []
+- name: deuce-client
+  url: https://github.com/rackerlabs/deuce-client
+  description: Python Client Library for Deuce
+  tags: []
+- name: deuce-valere
+  url: https://github.com/rackerlabs/deuce-valere
+  description: Validation Process for the Deuce project
+  tags: []
+- name: keystone-jvm
+  url: https://github.com/rackerlabs/keystone-jvm
+  description: This project shows how to run OpenStack Keystone on the JVM
+  tags: []
+- name: heat-stack
+  url: https://github.com/rackerlabs/heat-stack
+  description:
+    Sample Heat template that creates stack tiers, injects a simple BASH
+    script through cloud-init that installs Chef-client and joins a Chef Server.
+  tags: []
+- name: rax-feedback-service
+  url: https://github.com/rackerlabs/rax-feedback-service
+  description: services for adding comments to the feedbac backend
+  tags: []
+- name: rax-feedback-view
+  url: https://github.com/rackerlabs/rax-feedback-view
+  description: rax-feedback-view
+  tags: []
+- name: rax-feedback-backend
+  url: https://github.com/rackerlabs/rax-feedback-backend
+  description: rax-feedback-backend
+  tags: []
+- name: hotbuilder
+  url: https://github.com/rackerlabs/hotbuilder
+  description: hotbuilder
+  tags: []
+- name: repose-perf-scripts
+  url: https://github.com/rackerlabs/repose-perf-scripts
+  description: Repose performance scripts
+  tags: []
+- name: strongloop
+  url: https://github.com/rackerlabs/strongloop
+  description:
+    Rackspace Heat template to deploy StrongLoop on a single server leveraging
+    chef-solo
+  tags: []
+- name: canon-bootstrap
+  url: https://github.com/rackerlabs/canon-bootstrap
+  description:
+    Canon Bootstrap is a theme for Twitter Bootstrap based on Canon's visual
+    design.
+  tags: []
+- name: ansible-roles_onmetal-db
+  url: https://github.com/rackerlabs/ansible-roles_onmetal-db
+  description:
+    Ansible Role for configuring storage for DB usage for Rackspace onMetal
+    servers
+  tags: []
+- name: cookbook-databag-postfix
+  url: https://github.com/rackerlabs/cookbook-databag-postfix
+  description:
+    Wrapper cookbook to make community postfix cookbook's SASL bits encrypted
+    data bag driven
+  tags: []
+- name: greenlet
+  url: https://github.com/rackerlabs/greenlet
+  description: Lightweight in-process concurrent programming
+  tags: []
+- name: novamiko
+  url: https://github.com/rackerlabs/novamiko
+  description: A Wrapper Around Openstack Nova and Python Paramiko
+  tags: []
+- name: striker
+  url: https://github.com/rackerlabs/striker
+  description: Python build tool
+  tags: []
+- name: docs-cloud-rackconnect
+  url: https://github.com/rackerlabs/docs-cloud-rackconnect
+  description: Developer documentation source for RackConnect API
+  tags: []
+- name: cloudfeeds-preferences-svc
+  url: https://github.com/rackerlabs/cloudfeeds-preferences-svc
+  description:
+    "A web service for managing flat JSON based preferences and metadata.  Currently
+    in sustaining mode as deployed within Rackspace. "
+  tags: []
+- name: repose_apicoverage
+  url: https://github.com/rackerlabs/repose_apicoverage
+  description: Repository that will have all prototypal data for api coverage
+  tags: []
+- name: docs-cloud-servers
+  url: https://github.com/rackerlabs/docs-cloud-servers
+  description: Developer documentation source for Rackspace Cloud Servers API
+  tags: []
+- name: containers-security-tests
+  url: https://github.com/rackerlabs/containers-security-tests
+  description: Security tests for lxc containers
+  tags: []
+- name: containers-devstack-tempest
+  url: https://github.com/rackerlabs/containers-devstack-tempest
+  description: containers-devstack-tempest
+  tags: []
+- name: Diamond
+  url: https://github.com/rackerlabs/Diamond
+  description: Diamond
+  tags: []
+- name: cicd-process
+  url: https://github.com/rackerlabs/cicd-process
+  description: cicd-process
+  tags: []
+- name: onmetal-rescue-agent
+  url: https://github.com/rackerlabs/onmetal-rescue-agent
+  description: onmetal-rescue-agent
+  tags: []
+- name: PoshStack
+  url: https://github.com/rackerlabs/PoshStack
+  description: PowerShell client for OpenStack, built on the OpenStack.NET SDK v1
+  tags: []
+- name: devops-heat-templates
+  url: https://github.com/rackerlabs/devops-heat-templates
+  description: devops-heat-templates
+  tags: []
+- name: rax-autoscaler
+  url: https://github.com/rackerlabs/rax-autoscaler
+  description:
+    Uses the rackspace APIs to allow for scaling based on aggregate metrics
+    across a cluster. Can be used and installed on the auto-scale group members or
+    on a dedicated management instance.
+  tags: []
+- name: rackspace-docs-maven-plugin
+  url: https://github.com/rackerlabs/rackspace-docs-maven-plugin
+  description: docbook version of the clouddocs-maven-plugin
+  tags: []
+- name: cloudmetrics-cassandra
+  url: https://github.com/rackerlabs/cloudmetrics-cassandra
+  description: Mirror of Apache Cassandra
+  tags: []
+- name: metricslogging
+  url: https://github.com/rackerlabs/metricslogging
+  description: Python metrics logging
+  tags: []
+- name: rs-facet
+  url: https://github.com/rackerlabs/rs-facet
+  description: Angular directive for Canon facets.
+  tags: []
+- name: collectd
+  url: https://github.com/rackerlabs/collectd
+  description:
+    The system statistics collection daemon. Mirror of the canonical repository
+    (updated automatically). Please send Pull Requests here!
+  tags: []
+- name: heat-pyrax
+  url: https://github.com/rackerlabs/heat-pyrax
+  description: Heat fork of pyrax
+  tags: []
+- name: cloudbigdata-extras
+  url: https://github.com/rackerlabs/cloudbigdata-extras
+  description: cloudbigdata-extras
+  tags: []
+- name: treslek
+  url: https://github.com/rackerlabs/treslek
+  description: "Treslek: A node ircbot."
+  tags: []
+- name: cloudfeeds-preferences-svc-bundle
+  url: https://github.com/rackerlabs/cloudfeeds-preferences-svc-bundle
+  description: cloudfeeds-preferences-svc-bundle
+  tags: []
+- name: foundry
+  url: https://github.com/rackerlabs/foundry
+  description: "Foundry: A Rackspace-Flavored OpenStack™ Heat Template Builder"
+  tags: []
+- name: cloudpipe-rackspace-auth-store
+  url: https://github.com/rackerlabs/cloudpipe-rackspace-auth-store
+  description: Rackspace Authentication Service for Cloudpipe
+  tags: []
+- name: rackspace-docs-parent
+  url: https://github.com/rackerlabs/rackspace-docs-parent
+  description: Parent configuration for Maven-based documentation projects
+  tags: []
+- name: arsenal
+  url: https://github.com/rackerlabs/arsenal
+  description: arsenal
+  tags: []
+- name: cf-flume-sink
+  url: https://github.com/rackerlabs/cf-flume-sink
+  description: A Flume sink which publishes events to Cloud Feeds
+  tags: []
+- name: chocodile
+  url: https://github.com/rackerlabs/chocodile
+  description: A cloud backup manager for CLI
+  tags: []
+- name: ansible-postgresql
+  url: https://github.com/rackerlabs/ansible-postgresql
+  description:
+    Ansible + PostgreSQL. Playbooks for best practice PostgreSQL configuration
+    and management.
+  tags: []
+- name: react-popover
+  url: https://github.com/rackerlabs/react-popover
+  description: React Component for Canon popovers.
+  tags: []
+- name: cloudfeeds-ballista
+  url: https://github.com/rackerlabs/cloudfeeds-ballista
+  description:
+    "A command line utility to migrate data from a relational database
+    to HDFS.  Currently in sustaining mode as deployed within Rackspace. "
+  tags: []
+- name: pagerbot
+  url: https://github.com/rackerlabs/pagerbot
+  description: pagerbot
+  tags: []
+- name: cloudfeeds-nabu
+  url: https://github.com/rackerlabs/cloudfeeds-nabu
+  description:
+    "Cloud Feeds Archiving solution.  Currently in sustaining mode as deployed
+    within Rackspace. "
+  tags: []
+- name: rackspace-auth-neutronclientext
+  url: https://github.com/rackerlabs/rackspace-auth-neutronclientext
+  description: rackspace-auth-neutronclientext
+  tags: []
+- name: rackspace-sdk-plugin
+  url: https://github.com/rackerlabs/rackspace-sdk-plugin
+  description: Rackspace Plugin for the OpenStack SDK
+  tags: []
+- name: base-image-blueprints
+  url: https://github.com/rackerlabs/base-image-blueprints
+  description: base-image-blueprints
+  tags: []
+- name: fastfood
+  url: https://github.com/rackerlabs/fastfood
+  description: DEPRECATED
+  tags: []
+- name: coreos-image-builder
+  url: https://github.com/rackerlabs/coreos-image-builder
+  description: Base repository for coreos-image-builder, to be integrated into OpenStack
+  tags: []
+- name: cdeploy
+  url: https://github.com/rackerlabs/cdeploy
+  description: Simple Python program for managing Cassandra schema migrations
+  tags: []
+- name: ansible-cassandra
+  url: https://github.com/rackerlabs/ansible-cassandra
+  description:
+    Ansible + Cassandra. Playbooks for best practice Cassandra configuration
+    and management.
+  tags: []
+- name: rackconnect
+  url: https://github.com/rackerlabs/rackconnect
+  description: Ruby/RackConnect API gem
+  tags: []
+- name: canon-react
+  url: https://github.com/rackerlabs/canon-react
+  description: React components for Rackspace's Canon framework
+  tags: []
+- name: audit-sentinel-config
+  url: https://github.com/rackerlabs/audit-sentinel-config
+  description: A toolt o audit a local sentinel config file for known error conditions.
+  tags:
+    - audit-tool
+- name: rackspace-neutronclient
+  url: https://github.com/rackerlabs/rackspace-neutronclient
+  description:
+    Metapackage to install rackspace-python-neutronclient and Rackspace
+    extensions
+  tags: []
+- name: cs-reboot-info
+  url: https://github.com/rackerlabs/cs-reboot-info
+  description: "Cloud Servers tool to identify affected servers. "
+  tags: []
+- name: pgpool-monitor
+  url: https://github.com/rackerlabs/pgpool-monitor
+  description: pgpool-monitor
+  tags: []
+- name: os_virtual_interfacesv2_ext
+  url: https://github.com/rackerlabs/os_virtual_interfacesv2_ext
+  description:
+    Python Nova Client extension for utilizing the os-virtual-interfaces
+    API functionality
+  tags: []
+- name: ansible-mongodb
+  url: https://github.com/rackerlabs/ansible-mongodb
+  description:
+    Ansible playbook(s) and examples for provisioning MongoDB (including
+    MongoDB 3.0)
+  tags: []
+- name: simpl
+  url: https://github.com/rackerlabs/simpl
+  description: "common python libraries :point_right: https://simpl.readthedocs.org"
+  tags: []
+- name: netsec
+  url: https://github.com/rackerlabs/netsec
+  description: "Grace Hopper Workshop: Using GNS3 to set up a secure virtualized network"
+  tags: []
+- name: canary
+  url: https://github.com/rackerlabs/canary
+  description: Monitoring Service for Openstack Taskflow's Jobboards
+  tags: []
+- name: mercy
+  url: https://github.com/rackerlabs/mercy
+  description: mercy
+  tags: []
+- name: ruby-barbicanclient
+  url: https://github.com/rackerlabs/ruby-barbicanclient
+  description: Ruby Barbican Client Gem
+  tags: []
+- name: angular-query-builder
+  url: https://github.com/rackerlabs/angular-query-builder
+  description: Dynamic query building UI written in Angular.
+  tags: []
+- name: oslo.cache
+  url: https://github.com/rackerlabs/oslo.cache
+  description: Upstream oslo.cache
+  tags: []
+- name: solum-python-sample-app
+  url: https://github.com/rackerlabs/solum-python-sample-app
+  description: Sample Solum python app
+  tags: []
+- name: nodejs
+  url: https://github.com/rackerlabs/nodejs
+  description: Chef cookbook for nodejs
+  tags: []
+- name: seandons_templatepack
+  url: https://github.com/rackerlabs/seandons_templatepack
+  description: A set of Chef stencils for FastFood
+  tags: []
+- name: rails-hartl
+  url: https://github.com/rackerlabs/rails-hartl
+  description:
+    This is the sample application for the Ruby on Rails Tutorial by Michael
+    Hartl
+  tags: []
+- name: wordpress_test
+  url: https://github.com/rackerlabs/wordpress_test
+  description:
+    A test application which tests the various pieces wordpress will require
+    (MySQL, Redis, Etc).
+  tags: []
+- name: fluent-plugin-cloud-feeds
+  url: https://github.com/rackerlabs/fluent-plugin-cloud-feeds
+  description: Cloud Feeds fluentd output plugin
+  tags: []
+- name: browsermob
+  url: https://github.com/rackerlabs/browsermob
+  description: Simple, unopinionated browsermob-proxy management.
+  tags: []
+- name: snappit-mocha-protractor
+  url: https://github.com/rackerlabs/snappit-mocha-protractor
+  description:
+    Take screenshots of just a section of your screen in Protractor tests.
+    For Mocha.
+  tags:
+    - mocha
+    - protractor
+    - screenshot
+    - visual-regression
+- name: graphite-api-old
+  url: https://github.com/rackerlabs/graphite-api-old
+  description: Graphite-web, without the interface. Just the rendering HTTP API.
+  tags: []
+- name: riss
+  url: https://github.com/rackerlabs/riss
+  description: Rackspace Internal Service Standards
+  tags: []
+- name: python-lavaclient
+  url: https://github.com/rackerlabs/python-lavaclient
+  description: Command line client for Cloud Big Data
+  tags: []
+- name: architectures
+  url: https://github.com/rackerlabs/architectures
+  description:
+    Architecture blueprints that solve common workflows on the Rackspace
+    platform
+  tags: []
+- name: encore-ui-screenshots
+  url: https://github.com/rackerlabs/encore-ui-screenshots
+  description:
+    Screenshots from visual regression testing in the encore-ui pull request
+    builder.
+  tags: []
+- name: rs-heat-docs
+  url: https://github.com/rackerlabs/rs-heat-docs
+  description: "Orchestration User Guide source files "
+  tags: []
+- name: racksjs
+  url: https://github.com/rackerlabs/racksjs
+  description: a javascript SDK for the Rackspace Cloud
+  tags: []
+- name: cloudsink
+  url: https://github.com/rackerlabs/cloudsink
+  description:
+    A utility for syncing very very large directories to Rackspace Cloud
+    FIles containers
+  tags: []
+- name: node_test
+  url: https://github.com/rackerlabs/node_test
+  description: A very simple NodeJS application demo
+  tags: []
+- name: onmetal-dashboard
+  url: https://github.com/rackerlabs/onmetal-dashboard
+  description: A dashboard for use with Ironic. Currently unmaintained.
+  tags: []
+- name: onmetal-scripts
+  url: https://github.com/rackerlabs/onmetal-scripts
+  description: onmetal-scripts
+  tags: []
+- name: puppet-flume_repose
+  url: https://github.com/rackerlabs/puppet-flume_repose
+  description:
+    "This module provides a re-usable and environment agnostic control
+    of flume-repose & cf-flume-sink:  https://repose.atlassian.net/wiki/display/REPOSE/CF+Flume+sink"
+  tags: []
+- name: rackspace_intl_demo_app
+  url: https://github.com/rackerlabs/rackspace_intl_demo_app
+  description: Drupal 7 Demo Site
+  tags: []
+- name: vagrant-puppet-dev-env
+  url: https://github.com/rackerlabs/vagrant-puppet-dev-env
+  description:
+    Simple scripts to use vagrant to run local puppet modules on local
+    VMs.
+  tags: []
+- name: chef-dreadnot
+  url: https://github.com/rackerlabs/chef-dreadnot
+  description: Chef Cookbook for Dreadnot
+  tags: []
+- name: docs-developer-blog
+  url: https://github.com/rackerlabs/docs-developer-blog
+  description: DEPRECATED. Replaced by https://github.com/rackerlabs/technical-blog
+  tags: []
+- name: nexus-control
+  url: https://github.com/rackerlabs/nexus-control
+  description: Control repository for developer/support.rackspace.com hosted on deconst
+  tags: []
+- name: httpd
+  url: https://github.com/rackerlabs/httpd
+  description: Library cookbook with Apache httpd primitives
+  tags: []
+- name: repose-security-cookbook
+  url: https://github.com/rackerlabs/repose-security-cookbook
+  description: "Port of repose security cookbook that includes: repose and mocks"
+  tags: []
+- name: rabbitmq
+  url: https://github.com/rackerlabs/rabbitmq
+  description: Development repository for Chef cookbook RabbitMQ
+  tags: []
+- name: nginxctl
+  url: https://github.com/rackerlabs/nginxctl
+  description:
+    nginxctl provides the ability to list nginx server blocks (vhosts)
+    similar to that of apachectl
+  tags:
+    - nginxctl
+- name: rackspace_intl_digital_app
+  url: https://github.com/rackerlabs/rackspace_intl_digital_app
+  description: Digital Magento App Demo
+  tags: []
+- name: swiftly
+  url: https://github.com/rackerlabs/swiftly
+  description:
+    'Client for Swift - NOTE: The master branch is current dev work. Depending
+    on how adventurous you are, you might want to switch to the "stable" branch if
+    you''re running from a git clone.'
+  tags: []
+- name: zoolander
+  url: https://github.com/rackerlabs/zoolander
+  description: A Rackspace Bootstrap theme & components for marketing brand
+  tags: []
+- name: ansible-drac
+  url: https://github.com/rackerlabs/ansible-drac
+  description: Ansible playbooks for common DRAC tasks
+  tags: []
+- name: clouddns-iwadb
+  url: https://github.com/rackerlabs/clouddns-iwadb
+  description: Let's write a database!
+  tags: []
+- name: r10kwrapper
+  url: https://github.com/rackerlabs/r10kwrapper
+  description:
+    A wrapper for the r10k environment, removing the need to export shell
+    variables and adding the ability to update multiple Puppetfiles at once based
+    on a configuration file.
+  tags: []
+- name: docs-redesign-prototype
+  url: https://github.com/rackerlabs/docs-redesign-prototype
+  description: docs-redesign-prototype
+  tags: []
+- name: timid
+  url: https://github.com/rackerlabs/timid
+  description: Timid test runner
+  tags: []
+- name: guestbook
+  url: https://github.com/rackerlabs/guestbook
+  description: guestbook
+  tags: []
+- name: circletest
+  url: https://github.com/rackerlabs/circletest
+  description:
+    a simple command line client to trigger CircleCI builds and get a return
+    status indicating the results
+  tags: []
+- name: repose-oauth-test
+  url: https://github.com/rackerlabs/repose-oauth-test
+  description:
+    This is a custom filter bundle that provides a basic OAuth filter for
+    testing.
+  tags: []
+- name: repose-hello-world
+  url: https://github.com/rackerlabs/repose-hello-world
+  description:
+    This project is intended to assist a developer in learning what is
+    needed to create a custom filter for Repose.
+  tags: []
+- name: circleci_chef_deploy
+  url: https://github.com/rackerlabs/circleci_chef_deploy
+  description:
+    Project to standardize a circle.yml file to install chefdk and run
+    deployments for the DevOps group.
+  tags:
+    - chef
+    - fps
+    - rackspace
+    - rps
+- name: timid-github
+  url: https://github.com/rackerlabs/timid-github
+  description: Timid Github Extension
+  tags: []
+- name: cookbook-elasticsearch
+  url: https://github.com/rackerlabs/cookbook-elasticsearch
+  description: Chef cookbook for Elasticsearch
+  tags: []
+- name: api-site
+  url: https://github.com/rackerlabs/api-site
+  description: api-site
+  tags: []
+- name: rackspace_anz_dd15demo
+  url: https://github.com/rackerlabs/rackspace_anz_dd15demo
+  description: ANZ DevOps Days 2015 - Demo
+  tags: []
+- name: swift-informant
+  url: https://github.com/rackerlabs/swift-informant
+  description: Swift Informant Middleware
+  tags: []
+- name: docs-storage-user-guide
+  url: https://github.com/rackerlabs/docs-storage-user-guide
+  description: Rackspace Cloud Storage Services User Guide
+  tags: []
+- name: docs-network-user-guide
+  url: https://github.com/rackerlabs/docs-network-user-guide
+  description: "Rackspace Cloud Network Services User Guide "
+  tags: []
+- name: docs-data-user-guide
+  url: https://github.com/rackerlabs/docs-data-user-guide
+  description: Rackspace Cloud Data Services User Guide
+  tags: []
+- name: docs-applications-user-guide
+  url: https://github.com/rackerlabs/docs-applications-user-guide
+  description: Rackspace Cloud Application Services User Guide
+  tags: []
+- name: docs-security-support-user-guide
+  url: https://github.com/rackerlabs/docs-security-support-user-guide
+  description: Rackspace Cloud Security and Support Services User Guide
+  tags: []
+- name: repose_docker
+  url: https://github.com/rackerlabs/repose_docker
+  description: Repose Docker
+  tags: []
+- name: api-coverage
+  url: https://github.com/rackerlabs/api-coverage
+  description: Jenkins plugin for api coverage
+  tags: []
+- name: repose-phone-home-service
+  url: https://github.com/rackerlabs/repose-phone-home-service
+  description: This is the home of reposes usage reporting micro service
+  tags: []
+- name: template-resources
+  url: https://github.com/rackerlabs/template-resources
+  description: template-resources
+  tags: []
+- name: generator-ramlapi
+  url: https://github.com/rackerlabs/generator-ramlapi
+  description: A Yeoman Generator to produce RAML API projects
+  tags: []
+- name: ansible-rift
+  url: https://github.com/rackerlabs/ansible-rift
+  description: An ansible playbook to deploy CloudRift
+  tags: []
+- name: drc-icons
+  url: https://github.com/rackerlabs/drc-icons
+  description: Icon font for use on developer.rackspace.com
+  tags: []
+- name: cloud-monitoring-filter-bundle
+  url: https://github.com/rackerlabs/cloud-monitoring-filter-bundle
+  description: This is a custom Repose filter bundle for the Cloud Monitoring team.
+  tags: []
+- name: cbd_heat_plugin
+  url: https://github.com/rackerlabs/cbd_heat_plugin
+  description: Rackspace Cloud Big Data Heat Resource Plugin
+  tags: []
+- name: rs-db-config
+  url: https://github.com/rackerlabs/rs-db-config
+  description: Database configuration files curated by Rackspace
+  tags: []
+- name: ip_associations_python_novaclient_ext
+  url: https://github.com/rackerlabs/ip_associations_python_novaclient_ext
+  description: Adds Rackspace ip_associations support to python-novaclient
+  tags: []
+- name: python_neutronclient_ip_address_extension
+  url: https://github.com/rackerlabs/python_neutronclient_ip_address_extension
+  description: Rackspace IP Address Resource Extension for rackspace-python-neutronclient
+  tags: []
+- name: rackspace-python-neutronclient
+  url: https://github.com/rackerlabs/rackspace-python-neutronclient
+  description: Repo for rackspace-python-neutronclient
+  tags: []
+- name: heat-ci
+  url: https://github.com/rackerlabs/heat-ci
+  description: Test and example Heat templates for testing Cloud Orchestration
+  tags: []
+- name: ansible-dse
+  url: https://github.com/rackerlabs/ansible-dse
+  description: Ansible playbooks for deploying DataStax Cassandra
+  tags: []
+- name: heat-cloud-monitoring-plugins
+  url: https://github.com/rackerlabs/heat-cloud-monitoring-plugins
+  description: heat-cloud-monitoring-plugins
+  tags: []
+- name: repose_playground_frontend
+  url: https://github.com/rackerlabs/repose_playground_frontend
+  description: repose_playground_frontend
+  tags: []
+- name: heat-helpers
+  url: https://github.com/rackerlabs/heat-helpers
+  description: Heat orchestration related codey bits
+  tags: []
+- name: docs-cloud-office
+  url: https://github.com/rackerlabs/docs-cloud-office
+  description: API reference docs for Cloud Office
+  tags: []
+- name: docs-cloud-identity
+  url: https://github.com/rackerlabs/docs-cloud-identity
+  description: Developer documentation source for Rackspace Cloud Identity API
+  tags: []
+- name: pachyderm
+  url: https://github.com/rackerlabs/pachyderm
+  description: Lazily require a directory, loading nothing until it is called.
+  tags: []
+- name: locust
+  url: https://github.com/rackerlabs/locust
+  description: Scalable user load testing tool written in Python
+  tags: []
+- name: devex-ux
+  url: https://github.com/rackerlabs/devex-ux
+  description: Reusable styles for the Rackspace Developer Experience UX
+  tags: []
+- name: Invoke-RsCloudOfficeRequest
+  url: https://github.com/rackerlabs/Invoke-RsCloudOfficeRequest
+  description: PowerShell client for the Rackspace Cloud Office API
+  tags: []
+- name: RackspaceCloudOfficeApiClient
+  url: https://github.com/rackerlabs/RackspaceCloudOfficeApiClient
+  description: C#/.NET client library for the Rackspace Cloud Office API
+  tags: []
+- name: whoa
+  url: https://github.com/rackerlabs/whoa
+  description: Whoa. Simple Go Server -> tiny Docker image.
+  tags: []
+- name: encore-angular-styleguide
+  url: https://github.com/rackerlabs/encore-angular-styleguide
+  description: encore-angular-styleguide
+  tags: []
+- name: impersonation-filter-bundle
+  url: https://github.com/rackerlabs/impersonation-filter-bundle
+  description:
+    Impersonation filter for Repose (https://github.com/rackerlabs/repose)
+    proxy.
+  tags: []
+- name: swagger-codegen
+  url: https://github.com/rackerlabs/swagger-codegen
+  description:
+    swagger-codegen contains a template-driven engine to generate client
+    code in different languages by parsing your Swagger Resource Declaration.
+  tags: []
+- name: kpi-dashboard
+  url: https://github.com/rackerlabs/kpi-dashboard
+  description: kpi-dashboard
+  tags: []
+- name: slappy
+  url: https://github.com/rackerlabs/slappy
+  description: Return of the slapper
+  tags: []
+- name: goworker
+  url: https://github.com/rackerlabs/goworker
+  description:
+    goworker is a Go-based background worker that runs 10 to 100,000* times
+    faster than Ruby-based workers.
+  tags: []
+- name: openstack-ansible-security
+  url: https://github.com/rackerlabs/openstack-ansible-security
+  description: Security hardening role for openstack-ansible
+  tags: []
+- name: hot
+  url: https://github.com/rackerlabs/hot
+  description: CLI tool written in python for doing things with OpenStack Heat
+  tags: []
+- name: pub-ssh-keys
+  url: https://github.com/rackerlabs/pub-ssh-keys
+  description: Public SSH Keys
+  tags: []
+- name: heat-uptime
+  url: https://github.com/rackerlabs/heat-uptime
+  description: heat-uptime
+  tags: []
+- name: linserverscripts
+  url: https://github.com/rackerlabs/linserverscripts
+  description:
+    General purpose scripts intended to be run in server environments for
+    various tasks
+  tags: []
+- name: fauxhai
+  url: https://github.com/rackerlabs/fauxhai
+  description: Easily mock full ohai data
+  tags: []
+- name: kthresher
+  url: https://github.com/rackerlabs/kthresher
+  description: Tool to remove unused kernels in Debian/Ubuntu
+  tags: []
+- name: TLSManager
+  url: https://github.com/rackerlabs/TLSManager
+  description: TLSManager helps you manage all those TLS/SSL endpoints!
+  tags: []
+- name: lambda-uploader
+  url: https://github.com/rackerlabs/lambda-uploader
+  description: Helps package and upload Python lambda functions to AWS
+  tags: []
+- name: repose-perf-ui
+  url: https://github.com/rackerlabs/repose-perf-ui
+  description: Performance UI for repose
+  tags: []
+- name: repose-performance-ui
+  url: https://github.com/rackerlabs/repose-performance-ui
+  description: Port of the repose-perf-ui ruby project into Scala Play
+  tags: []
+- name: heat-chef-bootstrap
+  url: https://github.com/rackerlabs/heat-chef-bootstrap
+  description: Heat user_data template to perform a Chef bootstrap
+  tags:
+    - chef
+    - deprecated
+    - fps
+    - heat
+    - rps
+- name: docs-support-network
+  url: https://github.com/rackerlabs/docs-support-network
+  description: Nexus landing site for support.rackspace.com
+  tags: []
+- name: docs-auto-scale-user-guide
+  url: https://github.com/rackerlabs/docs-auto-scale-user-guide
+  description:
+    User Guide for Auto Scale + its family of prereqs (Monitoring + Load
+    Balancers + Servers)
+  tags: []
+- name: monitoringscape
+  url: https://github.com/rackerlabs/monitoringscape
+  description: A library of modern monitoring tools
+  tags: []
+- name: chronostack
+  url: https://github.com/rackerlabs/chronostack
+  description: chronostack
+  tags: []
+- name: docs-support-launch
+  url: https://github.com/rackerlabs/docs-support-launch
+  description: Nexus landing site for support.rackspace.com/launch
+  tags: []
+- name: canon-directives
+  url: https://github.com/rackerlabs/canon-directives
+  description: Collection of AngularJS components using canon design
+  tags: []
+- name: cookbook-users
+  url: https://github.com/rackerlabs/cookbook-users
+  description: simple users cookbook
+  tags: []
+- name: pychef
+  url: https://github.com/rackerlabs/pychef
+  description: Python library to interact with the Chef server API
+  tags: []
+- name: puppet-elasticsearch
+  url: https://github.com/rackerlabs/puppet-elasticsearch
+  description: Elasticsearch Puppet module
+  tags: []
+- name: marcopolo
+  url: https://github.com/rackerlabs/marcopolo
+  description: marcopolo
+  tags: []
+- name: rackspace-keystoneauth-plugin
+  url: https://github.com/rackerlabs/rackspace-keystoneauth-plugin
+  description: keystoneauth plugin for Rackspace's authentication service
+  tags: []
+- name: insights
+  url: https://github.com/rackerlabs/insights
+  description: Proof of concept for inventory servers
+  tags: []
+- name: cookbook-mimic
+  url: https://github.com/rackerlabs/cookbook-mimic
+  description: cookbook-mimic
+  tags: []
+- name: rackspace-howto-dev
+  url: https://github.com/rackerlabs/rackspace-howto-dev
+  description: Dev repository for Rackspace howtos
+  tags: []
+- name: rackspace-howto-preparer
+  url: https://github.com/rackerlabs/rackspace-howto-preparer
+  description: Preparer for pushing the rackspace-howto repo to Nexus
+  tags: []
+- name: stalker
+  url: https://github.com/rackerlabs/stalker
+  description: An experimental no frills monitoring system
+  tags: []
+- name: puppet-oidentd
+  url: https://github.com/rackerlabs/puppet-oidentd
+  description: Module used to install the oidentd daemon
+  tags: []
+- name: encore-ui-table
+  url: https://github.com/rackerlabs/encore-ui-table
+  description: Temporary repository for Encore rxTable page objects.
+  tags: []
+- name: python-lunrclient
+  url: https://github.com/rackerlabs/python-lunrclient
+  description: python-lunrclient
+  tags: []
+- name: mock
+  url: https://github.com/rackerlabs/mock
+  description: GoMock is a mocking framework for the Go programming language.
+  tags: []
+# - name: rackspace-white-paper
+#   url: https://github.com/rackerlabs/rackspace-white-paper
+#   description:
+#     DEPRECIATED Repository containing the rackspace whitepapers that live
+#     in nexus.
 #   tags:
-#     - tag1
-#     - tag2
+#     - new-repo
+# - name: rackspace-how-to
+#   url: https://github.com/rackerlabs/rackspace-how-to
+#   description: DEPRECATED. Use https://github.com/rackerlabs/support-how-to
+#   tags:
+#     - new-repo
+- name: fleece
+  url: https://github.com/rackerlabs/fleece
+  description: keeps you warm in the serverless age
+  tags:
+    - aws-lambda
+    - lambda
+    - xplat
+    - xray
+- name: developer-deconst-control
+  url: https://github.com/rackerlabs/developer-deconst-control
+  description: Deconst control repository for developer.rackspace.com
+  tags: []
+- name: docs-dedicated-networking
+  url: https://github.com/rackerlabs/docs-dedicated-networking
+  description:
+    Developer documentation source and builds for Automation Integration
+    networking offerings for dedicated customers
+  tags: []
+- name: gradle-jaxb-plugin
+  url: https://github.com/rackerlabs/gradle-jaxb-plugin
+  description: Gradle plugin to ease projects that use xsds and the ant jaxb task
+  tags: []
+- name: to_elixir
+  url: https://github.com/rackerlabs/to_elixir
+  description:
+    A simple Rails rake task that inspects your existing Rails application
+    and generates a Elixir / Phoenix JSON API.
+  tags: []
+- name: capstone
+  url: https://github.com/rackerlabs/capstone
+  description: Capstone sits on top of OpenStack Keystone
+  tags: []
+- name: dotlock
+  url: https://github.com/rackerlabs/dotlock
+  description: Cross-process locking
+  tags: []
+- name: craton
+  url: https://github.com/rackerlabs/craton
+  description:
+    Fleet management for OpenStack, eventually to released as an OpenStack
+    "big tent" project. Working name is "craton", which is used to describe the platforms
+    underlying the stable parts of continents. Work started under OpenStack Innovation
+    Center.
+  tags: []
+- name: troposphere
+  url: https://github.com/rackerlabs/troposphere
+  description: troposphere - Python library to create AWS CloudFormation descriptions
+  tags: []
+- name: repose_playground_api
+  url: https://github.com/rackerlabs/repose_playground_api
+  description: Play-based api for repose playground
+  tags: []
+- name: wafflehaus.neutron
+  url: https://github.com/rackerlabs/wafflehaus.neutron
+  description: Wafflehaus modules specific to neutron
+  tags: []
+- name: pymojo
+  url: https://github.com/rackerlabs/pymojo
+  description: A client library for PyJoJo
+  tags: []
+- name: mdns
+  url: https://github.com/rackerlabs/mdns
+  description: "`designate-mdns` in Go"
+  tags: []
+- name: cloudpassage-lib
+  url: https://github.com/rackerlabs/cloudpassage-lib
+  description: A Clojure library for interacting with CloudPassage APIs.
+  tags: []
+- name: solum_playground
+  url: https://github.com/rackerlabs/solum_playground
+  description: solum UI
+  tags: []
+- name: repose_playground
+  url: https://github.com/rackerlabs/repose_playground
+  description:
+    Wrapper repository around repose playground services (frontend and
+    api)
+  tags: []
+- name: designate-carina
+  url: https://github.com/rackerlabs/designate-carina
+  description:
+    MVP to get the OpenStack Designate stack running in Carina, by Rackspace.  Achieved
+    via docker-compose.
+  tags: []
+- name: ecs-spot-instances
+  url: https://github.com/rackerlabs/ecs-spot-instances
+  description: Scaling ECS Clusters with Spot Instances
+  tags: []
+- name: heattests
+  url: https://github.com/rackerlabs/heattests
+  description: Downstream Cloud Orchestration tests
+  tags: []
+- name: austin
+  url: https://github.com/rackerlabs/austin
+  description: austin
+  tags: []
+- name: designate-ruiner
+  url: https://github.com/rackerlabs/designate-ruiner
+  description: Ruin your Designate!
+  tags: []
+- name: heatbot
+  url: https://github.com/rackerlabs/heatbot
+  description: heatbot
+  tags: []
+- name: tetra
+  url: https://github.com/rackerlabs/tetra
+  description: Test results aggregator
+  tags: []
+- name: ansible-cloudpassage
+  url: https://github.com/rackerlabs/ansible-cloudpassage
+  description: Ansible playbook for CloudPassage Halo Agent
+  tags: []
+- name: encore-auditor-cli
+  url: https://github.com/rackerlabs/encore-auditor-cli
+  description: Code analysis tool
+  tags:
+    - audit-tool
+- name: snappit-mocha-protractor-screenshots
+  url: https://github.com/rackerlabs/snappit-mocha-protractor-screenshots
+  description: snappit-mocha-protractor-screenshots
+  tags: []
+- name: design.rax.io
+  url: https://github.com/rackerlabs/design.rax.io
+  description: WordPress theme for the internal website of Rackspace Experience Design
+  tags: []
+- name: snappit-mocha-protractor-screenshots-codeship
+  url: https://github.com/rackerlabs/snappit-mocha-protractor-screenshots-codeship
+  description: snappit-mocha-protractor-screenshots-codeship
+  tags: []
+- name: snappit-mocha-protractor-screenshots-travis
+  url: https://github.com/rackerlabs/snappit-mocha-protractor-screenshots-travis
+  description: snappit-mocha-protractor-screenshots-travis
+  tags: []
+- name: chef-filebeat
+  url: https://github.com/rackerlabs/chef-filebeat
+  description: Chef Cookbook to Manage Elastic Filebeat https://supermarket.chef.io/cookbooks/filebeat
+  tags: []
+- name: puppet-falcon_sensor
+  url: https://github.com/rackerlabs/puppet-falcon_sensor
+  description: Puppet module to install and configure CrowdStrike's Falcon Sensor
+  tags: []
+- name: snappit-mocha-protractor-screenshots-jenkins
+  url: https://github.com/rackerlabs/snappit-mocha-protractor-screenshots-jenkins
+  description: snappit-mocha-protractor-screenshots-jenkins
+  tags: []
+- name: rackspace-ruby-sdk
+  url: https://github.com/rackerlabs/rackspace-ruby-sdk
+  description: rackspace-ruby-sdk
+  tags: []
+- name: CIDR-Converter
+  url: https://github.com/rackerlabs/CIDR-Converter
+  description: Converts IP ranges into CIDR notation written with React
+  tags: []
+# - name: ansible-cloud-backup-agent
+#   url: https://github.com/rackerlabs/ansible-cloud-backup-agent
+#   description: DEPRECATED
+#   tags:
+#     - new-repo
+# - name: ansible-cloud-monitoring-agent
+#   url: https://github.com/rackerlabs/ansible-cloud-monitoring-agent
+#   description: DEPRECATED
+#   tags:
+#     - new-repo
+- name: aws-apigateway-importer
+  url: https://github.com/rackerlabs/aws-apigateway-importer
+  description: Tools to work with Amazon API Gateway, Swagger, and RAML
+  tags: []
+- name: fuse
+  url: https://github.com/rackerlabs/fuse
+  description: FUSE library for Go.   go get bazil.org/fuse
+  tags: []
+- name: blueflood-grafana-src
+  url: https://github.com/rackerlabs/blueflood-grafana-src
+  description: "Blueflood data source plugin for Grafana. "
+  tags: []
+- name: solum_proxy
+  url: https://github.com/rackerlabs/solum_proxy
+  description: solum_proxy
+  tags: []
+- name: rackspace-ruby-sdk-core
+  url: https://github.com/rackerlabs/rackspace-ruby-sdk-core
+  description: rackspace-ruby-sdk-core
+  tags: []
+- name: openstack-ruby-sdk
+  url: https://github.com/rackerlabs/openstack-ruby-sdk
+  description: openstack-ruby-sdk
+  tags: []
+- name: cloudformation-style
+  url: https://github.com/rackerlabs/cloudformation-style
+  description: Style Guide for Cloudformation
+  tags:
+    - cloudformation
+    - fps
+    - json
+- name: serverless-demo
+  url: https://github.com/rackerlabs/serverless-demo
+  description: Demo of creating a server less architecture
+  tags: []
+- name: rspaas
+  url: https://github.com/rackerlabs/rspaas
+  description: rspaas
+  tags: []
+- name: zabbix_url_monitor
+  url: https://github.com/rackerlabs/zabbix_url_monitor
+  description:
+    A URL monitor that can watch a URL and json structure and create Zabbix
+    items to alert and trigger based on responses.
+  tags: []
+- name: healthcheck
+  url: https://github.com/rackerlabs/healthcheck
+  description: healthcheck
+  tags: []
+- name: auter
+  url: https://github.com/rackerlabs/auter
+  description:
+    Automatic updates for RHEL, Debian, and their derivatives, with the
+    ability to run pre/post hooks & reboot afterwards.
+  tags:
+    - patching
+    - shell-scripts
+- name: design-system
+  url: https://github.com/rackerlabs/design-system
+  description: Design documentation for Helix, the Rackspace Design System
+  tags: []
+- name: python-rtmbot
+  url: https://github.com/rackerlabs/python-rtmbot
+  description:
+  tags: []
+- name: sensu-plugins-cassandra
+  url: https://github.com/rackerlabs/sensu-plugins-cassandra
+  description:
+    "This plugin provides native Cassandra instrumentation for monitoring
+    and metrics collection, including: service health, database connectivity, and
+    various `nodetool` checks (e.g. schema disagreement, `tpstats` metrics, etc) and
+    more."
+  tags: []
+- name: autoscale-cruft
+  url: https://github.com/rackerlabs/autoscale-cruft
+  description:
+  tags: []
+- name: ng-annotate-namespace-collision
+  url: https://github.com/rackerlabs/ng-annotate-namespace-collision
+  description: An ngAnnotate plugin for detecting Angular namespace collisions
+  tags: []
+- name: fbctf
+  url: https://github.com/rackerlabs/fbctf
+  description: Platform to host Capture the Flag competitions
+  tags: []
+- name: configsnap
+  url: https://github.com/rackerlabs/configsnap
+  description: Gather and compare Linux system state
+  tags: []
+- name: yoke
+  url: https://github.com/rackerlabs/yoke
+  description: Harness your Lambdas to API Gateway quickly and easily.
+  tags:
+    - xplat
+- name: encore-bridge
+  url: https://github.com/rackerlabs/encore-bridge
+  description:
+  tags: []
+- name: encore-bridge-screenshots
+  url: https://github.com/rackerlabs/encore-bridge-screenshots
+  description:
+  tags: []
+- name: raxmetrics-perf-test-scripts
+  url: https://github.com/rackerlabs/raxmetrics-perf-test-scripts
+  description: Grinder scripts for performance testing of Rackspace Metrics
+  tags: []
+- name: trial-by-combat
+  url: https://github.com/rackerlabs/trial-by-combat
+  description:
+    trial-by-combat is a database benchmarking utility designed to run
+    in a distributed setting
+  tags: []
+- name: graphite-api
+  url: https://github.com/rackerlabs/graphite-api
+  description: Graphite-web, without the interface. Just the rendering HTTP API.
+  tags: []
+- name: pyjojo
+  url: https://github.com/rackerlabs/pyjojo
+  description: Expose a directory of bash scripts as an API.
+  tags: []
+- name: serverless
+  url: https://github.com/rackerlabs/serverless
+  description:
+    "Serverless Framework – Build web, mobile and IoT applications with
+    serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions
+    & more! – "
+  tags: []
+- name: docs-cloud-cfs
+  url: https://github.com/rackerlabs/docs-cloud-cfs
+  description: Developer documentation source for Rackspace Cloud File System API
+  tags: []
+- name: auter-manager
+  url: https://github.com/rackerlabs/auter-manager
+  description: Tools to help deploy Auter host based automatic updates
+  tags: []
+- name: rxDataTable
+  url: https://github.com/rackerlabs/rxDataTable
+  description:
+    A "catch-all" solution for displaying data in a table format in a basic
+    or extremely complex style.
+  tags: []
+- name: keep-uptime
+  url: https://github.com/rackerlabs/keep-uptime
+  description:
+  tags: []
+- name: python_lambda_scheduler
+  url: https://github.com/rackerlabs/python_lambda_scheduler
+  description: Flexible scheduling of AWS Lambda functions with arbitrary payloads
+  tags: []
+- name: jetstream
+  url: https://github.com/rackerlabs/jetstream
+  description: Wrapper around Troposphere for Template Publishing and Testing
+  tags:
+    - faws
+    - navi-rax-supeng
+    - support-engineering
+- name: openstack-usage-report
+  url: https://github.com/rackerlabs/openstack-usage-report
+  description: Generates a usage report of openstack resources from ceilometer.
+  tags: []
+- name: docs-cloud-monitoring
+  url: https://github.com/rackerlabs/docs-cloud-monitoring
+  description: Rackspace Monitoring API documentation
+  tags: []
+- name: AngularInterviewChallenge
+  url: https://github.com/rackerlabs/AngularInterviewChallenge
+  description:
+  tags: []
+- name: ebs_snapper
+  url: https://github.com/rackerlabs/ebs_snapper
+  description: Next generation AWS tool for EBS snapshots using Lambda
+  tags:
+    - faws
+    - fps
+    - navi-rax-supeng
+    - support-engineering
+- name: python-saml
+  url: https://github.com/rackerlabs/python-saml
+  description:
+    A python interface to produce and consume Security Assertion Markup
+    Language (SAML) v2.0 messages.
+  tags: []
+- name: cbs-vagrant
+  url: https://github.com/rackerlabs/cbs-vagrant
+  description:
+  tags: []
+- name: dauter
+  url: https://github.com/rackerlabs/dauter
+  description: Debian version of auter
+  tags: []
+- name: alertlogic-lib
+  url: https://github.com/rackerlabs/alertlogic-lib
+  description:
+  tags: []
+- name: liberasurecode
+  url: https://github.com/rackerlabs/liberasurecode
+  description: Erasure Code API library written in C with pluggable Erasure Code backends.
+  tags: []
+- name: thriftpy
+  url: https://github.com/rackerlabs/thriftpy
+  description: Pure python implementation of Apache Thrift.
+  tags: []
+- name: attributeMapping
+  url: https://github.com/rackerlabs/attributeMapping
+  description:
+  tags: []
+- name: PyModel
+  url: https://github.com/rackerlabs/PyModel
+  description: Model-based testing in Python
+  tags: []
+- name: liam
+  url: https://github.com/rackerlabs/liam
+  description: Fully scan an account and list all resources
+  tags: []
+- name: solve-2017-containers-azure
+  url: https://github.com/rackerlabs/solve-2017-containers-azure
+  description:
+  tags:
+    - test
+- name: tpp
+  url: https://github.com/rackerlabs/tpp
+  description:
+  tags: []
+- name: blueflood-es-reindex
+  url: https://github.com/rackerlabs/blueflood-es-reindex
+  description: Blueflood elastic search re-index
+  tags: []
+- name: aggie
+  url: https://github.com/rackerlabs/aggie
+  description: aggie -- An Elixir-based CLI to parse/centralize MaaS logs.
+  tags: []
+- name: billing-ui-visreg-screenshots
+  url: https://github.com/rackerlabs/billing-ui-visreg-screenshots
+  description:
+  tags: []
+- name: csv
+  url: https://github.com/rackerlabs/csv
+  description: Clojure utilities for writing lists of maps to CSV files
+  tags: []
+- name: ecs-playground
+  url: https://github.com/rackerlabs/ecs-playground
+  description: AWS ECS Playground
+  tags:
+    - aws-ecs
+    - containers
+    - ecs
+- name: rackspace-whitepapers
+  url: https://github.com/rackerlabs/rackspace-whitepapers
+  description: DEPRECIATED Rackspace White Papers site (deconst-supported)
+  tags: []
+- name: repose-tech-talk
+  url: https://github.com/rackerlabs/repose-tech-talk
+  description: A tech Talk describing the capabilities of Repose
+  tags: []
+- name: poppy
+  url: https://github.com/rackerlabs/poppy
+  description:
+    A modular, vendor-neutral API, that wraps provisioning instructions
+    for all CDN vendors that support it.
+  tags: []
+- name: go-tables
+  url: https://github.com/rackerlabs/go-tables
+  description: Simple library for formatting string data into tables.
+  tags:
+    - fps
+- name: docker-elk
+  url: https://github.com/rackerlabs/docker-elk
+  description: The ELK stack powered by Docker and Compose.
+  tags: []
+- name: packer-ami-pipeline
+  url: https://github.com/rackerlabs/packer-ami-pipeline
+  description:
+    Blog post and sample code for using Packer and CodeBuild & CodePipeline
+    to make AMIs
+  tags:
+    - faws
+    - fps
+    - rps
+- name: cflinuxfs2-openstack
+  url: https://github.com/rackerlabs/cflinuxfs2-openstack
+  description:
+  tags:
+    - pcf
+- name: aws-ecs-cd-pipeline
+  url: https://github.com/rackerlabs/aws-ecs-cd-pipeline
+  description: AWS ECS Continuous Deployment Pipeline
+  tags:
+    - faws
+    - fps
+    - rps
+- name: lex-playground
+  url: https://github.com/rackerlabs/lex-playground
+  description: AWS Lex playground
+  tags:
+    - ai
+    - aws
+    - bot
+    - lex
+    - lex-bot
+- name: snappit-visual-regression
+  url: https://github.com/rackerlabs/snappit-visual-regression
+  description: An NPM module for visual regression testing
+  tags: []
+- name: splat
+  url: https://github.com/rackerlabs/splat
+  description: Pomodoro and Time Tracking
+  tags:
+    - pcf
+- name: third_lama
+  url: https://github.com/rackerlabs/third_lama
+  description: Benchmarking of databases
+  tags: []
+- name: docker-curriculum
+  url: https://github.com/rackerlabs/docker-curriculum
+  description: ":dolphin: A comprehensive tutorial on getting started with Docker!"
+  tags: []
+- name: auter-checkmate
+  url: https://github.com/rackerlabs/auter-checkmate
+  description:
+    A central location for auter to update with information about the servers
+    patching state
+  tags: []
+- name: DEFCON
+  url: https://github.com/rackerlabs/DEFCON
+  description:
+    The control system for the incident management light notification systems
+    (integration with Service-Now)
+  tags: []
+- name: datadog-agent-boshrelease
+  url: https://github.com/rackerlabs/datadog-agent-boshrelease
+  description: Datadog agent!
+  tags: []
+- name: ansible-newrelic
+  url: https://github.com/rackerlabs/ansible-newrelic
+  description: Deprecated Ansible role for Newrelic.
+  tags: []
+- name: vault-commander
+  url: https://github.com/rackerlabs/vault-commander
+  description: Terminal utility to interact with HashiCorp Vault.
+  tags: []
+- name: telegraf-homebase
+  url: https://github.com/rackerlabs/telegraf-homebase
+  description: A homebase for managed telegraf instances to obtain input plugin configs
+  tags:
+    - apache-ignite
+    - centralized-configuration
+    - java-8
+    - monitoring
+    - multi-tenant
+    - spring-boot
+    - telegraf
+- name: telegraf
+  url: https://github.com/rackerlabs/telegraf
+  description: The plugin-driven server agent for collecting & reporting metrics.
+  tags: []
+- name: Nancy.Metadata.Swagger
+  url: https://github.com/rackerlabs/Nancy.Metadata.Swagger
+  description:
+  tags: []
+- name: super-reboot-checks
+  url: https://github.com/rackerlabs/super-reboot-checks
+  description: Check whether a Linux system will reboot cleanly
+  tags: []
+- name: jenkins
+  url: https://github.com/rackerlabs/jenkins
+  description:
+  tags: []
+- name: swift-container-cleanup
+  url: https://github.com/rackerlabs/swift-container-cleanup
+  description:
+  tags: []
+- name: rack_iam_oss
+  url: https://github.com/rackerlabs/rack_iam_oss
+  description: The Rack IAM framework
+  tags: []
+- name: care-styleguide
+  url: https://github.com/rackerlabs/care-styleguide
+  description:
+    A comprehensive coding style guide for developing web apps using Typescript,
+    React, and JSX
+  tags: []
+- name: docs-rackspace-federation
+  url: https://github.com/rackerlabs/docs-rackspace-federation
+  description: All about Federation at Rackspace
+  tags: []
+- name: pcf-pipelines
+  url: https://github.com/rackerlabs/pcf-pipelines
+  description: PCF Pipelines
+  tags: []
+- name: yolo
+  url: https://github.com/rackerlabs/yolo
+  description:
+    Deployment tool for managing infrastructure and services on AWS for
+    multiple accounts/stages.
+  tags:
+    - xplat
+- name: gradle-linkchecker-plugin
+  url: https://github.com/rackerlabs/gradle-linkchecker-plugin
+  description: Gradle plugin to check the links in html files.
+  tags: []
+- name: badgr-server
+  url: https://github.com/rackerlabs/badgr-server
+  description: Open Badge issuing and management with Django
+  tags: []
+- name: image_metadata_configurations
+  url: https://github.com/rackerlabs/image_metadata_configurations
+  description: Image metadata configurations for public cloud images
+  tags: []
+- name: snappit-visual-regression-server
+  url: https://github.com/rackerlabs/snappit-visual-regression-server
+  description: A PaaS server supporting the snappit-visual-regression project.
+  tags: []
+- name: xplat-terraform-modules
+  url: https://github.com/rackerlabs/xplat-terraform-modules
+  description: Repository of Terraform modules for AWS Serverless use cases
+  tags:
+    - xplat
+- name: go-connect-tunnel
+  url: https://github.com/rackerlabs/go-connect-tunnel
+  description:
+    Provides a specialized version of net.Dial that can establish a tunnelled
+    TCP connection via an HTTP proxy that supports the CONNECT method per RFC 2817
+  tags: []
+- name: aws-cd-multiplexer
+  url: https://github.com/rackerlabs/aws-cd-multiplexer
+  description:
+    "AWS CodeDeploy Multiplexer (Multiple Sources -> Single Deployment
+    Group) "
+  tags: []
+- name: cinder
+  url: https://github.com/rackerlabs/cinder
+  description: Cinder Liberty release
+  tags: []
+- name: maestro
+  url: https://github.com/rackerlabs/maestro
+  description: AWS EC2 SSM Management Orchestrator
+  tags:
+    - aws
+    - ec2
+    - fps
+    - rps
+- name: neutron
+  url: https://github.com/rackerlabs/neutron
+  description: OpenStack Networking (Neutron)
+  tags: []
+- name: wafflehaus
+  url: https://github.com/rackerlabs/wafflehaus
+  description: WSGI middleware collection to support special requirements
+  tags: []
+- name: sandbox-external-docs-starter-kit
+  url: https://github.com/rackerlabs/sandbox-external-docs-starter-kit
+  description:
+  tags: []
+- name: cc-api-tests
+  url: https://github.com/rackerlabs/cc-api-tests
+  description: Smoke Tests for the CloudFoundry Cloud Controller API
+  tags: []
+- name: mpcf-docker-cloudops-ci
+  url: https://github.com/rackerlabs/mpcf-docker-cloudops-ci
+  description: Modification of the cloudopsci/docker-cloudops-ci container for MPCF
+  tags: []
+- name: repose-tracing-contribs
+  url: https://github.com/rackerlabs/repose-tracing-contribs
+  description: Repose opentracing packages
+  tags: []
+- name: hxSketchLibrary
+  url: https://github.com/rackerlabs/hxSketchLibrary
+  description: "[DEPRECATED] Repo for testing Kactus and sketch library integration"
+  tags: []
+- name: docs-style-guide
+  url: https://github.com/rackerlabs/docs-style-guide
+  description: Rackspace Style Guide for Technical Content
+  tags: []
+- name: xplat-ci-images
+  url: https://github.com/rackerlabs/xplat-ci-images
+  description: CI docker images pre-baked with some dependencies
+  tags: []
+- name: grails-spring-security-saml
+  url: https://github.com/rackerlabs/grails-spring-security-saml
+  description: Grails Spring Security SAML2.0 Plugin for Grails 3
+  tags: []
+- name: s2i-oc-observe
+  url: https://github.com/rackerlabs/s2i-oc-observe
+  description: An s2i to enable use of the oc observe command
+  tags: []
+- name: docs-customer-service
+  url: https://github.com/rackerlabs/docs-customer-service
+  description:
+  tags: []
+- name: fed-policy-examples
+  url: https://github.com/rackerlabs/fed-policy-examples
+  description: Repository of examples for rackspace identity federation
+  tags: []
+- name: table-builder
+  url: https://github.com/rackerlabs/table-builder
+  description:
+    "\U0001F5D2\U0001F44C\U0001F3FBDrag and drop UI for building html tables
+    on rackspace.com"
+  tags:
+    - drag-and-drop
+    - ejs
+    - gulp
+    - jquery
+    - nodejs
+    - rackspace
+    - tables
+- name: flux
+  url: https://github.com/rackerlabs/flux
+  description: "DEPRECATED :octocat: Design System for all things Rackspace.com facing."
+  tags:
+    - gulp
+    - javascript
+    - rackspace
+    - styleguide
+    - vue
+    - webpack
+- name: python-api-challenge
+  url: https://github.com/rackerlabs/python-api-challenge
+  description: Python Challenge for API developer candidates
+  tags: []
+- name: spring-integration-flume-adapter
+  url: https://github.com/rackerlabs/spring-integration-flume-adapter
+  description:
+    Provides a Spring Integration inbound channel adapter that will receive
+    Flume events sent from a ThriftSink
+  tags: []
+- name: secure-random-password
+  url: https://github.com/rackerlabs/secure-random-password
+  description: Password generator that wraps secure-random. Browser and Node.js support.
+  tags: []
+- name: devops-essentials-sample-app
+  url: https://github.com/rackerlabs/devops-essentials-sample-app
+  description:
+  tags: []
+- name: name-builder
+  url: https://github.com/rackerlabs/name-builder
+  description: A name builder for Kapost
+  tags:
+    - browsersync
+    - ejs
+    - gulp
+    - jquery
+    - nodejs
+- name: docs-offerings
+  url: https://github.com/rackerlabs/docs-offerings
+  description: The public-facing docs for the Offerings v2 API.
+  tags: []
+- name: insightvm_slackbot
+  url: https://github.com/rackerlabs/insightvm_slackbot
+  description: Slackbot to automate ad-hoc scanning and reporting in InsightVM.
+  tags: []
+- name: docs-ras-databases
+  url: https://github.com/rackerlabs/docs-ras-databases
+  description: Documentation for ras databases
+  tags: []
+- name: environment-discovery-utility
+  url: https://github.com/rackerlabs/environment-discovery-utility
+  description: Exchange and Active Directory environment discovery
+  tags: []
+- name: scantron
+  url: https://github.com/rackerlabs/scantron
+  description:
+    A distributed nmap / masscan scanning framework complete with scan
+    scheduling, engine pooling, subsequent scan port diff-ing, and an API client for
+    automation workflows.
+  tags:
+    - ansible
+    - api
+    - automation
+    - django
+    - masscan
+    - nmap
+    - penetration-testing
+    - python
+    - rest
+    - scanning
+- name: helix-design-docs
+  url: https://github.com/rackerlabs/helix-design-docs
+  description: GitHub repo for managing helix design documentation files
+  tags: []
+- name: ascii_binder_search_plugin
+  url: https://github.com/rackerlabs/ascii_binder_search_plugin
+  description: "A seamless search integration plugin for ascii_binder generated sites "
+  tags: []
+- name: tuvok
+  url: https://github.com/rackerlabs/tuvok
+  description: The Unnamed (Terraform) Validator (OK? OK?)
+  tags:
+    - navi-rax-supeng
+- name: mpc-files
+  url: https://github.com/rackerlabs/mpc-files
+  description: A repository for the MPC Hyper-V files that need public access
+  tags: []
+- name: couchbase-monitoring
+  url: https://github.com/rackerlabs/couchbase-monitoring
+  description: scripts used to monitor couchbase clusters via api
+  tags: []
+- name: mpcf-pipelines
+  url: https://github.com/rackerlabs/mpcf-pipelines
+  description:
+  tags: []
+- name: cloud-networks-orchestration
+  url: https://github.com/rackerlabs/cloud-networks-orchestration
+  description:
+    Orchestration Templates for easy use of Cloud Networks and Gateway
+    Instances in Rackspace Public Cloud
+  tags: []
+- name: automating-azure-demos
+  url: https://github.com/rackerlabs/automating-azure-demos
+  description:
+    Description  Demo scripts, snippets, and templates used in an Azure-specific
+    Automation workshop
+  tags: []
+- name: gradle-codacy-plugin
+  url: https://github.com/rackerlabs/gradle-codacy-plugin
+  description:
+  tags: []
+- name: aws-instance-scheduler
+  url: https://github.com/rackerlabs/aws-instance-scheduler
+  description:
+    A cross-account and cross-region solution that allows customers to
+    automatically start and stop EC2 and RDS Instances
+  tags: []
+- name: jenkins-s2i-example
+  url: https://github.com/rackerlabs/jenkins-s2i-example
+  description:
+  tags: []
+- name: simple-provider-cicd
+  url: https://github.com/rackerlabs/simple-provider-cicd
+  description:
+    A simple AWS CICD setup for Terraform providers. Builds from Github
+    and pushes resulting files to S3 for consumption.
+  tags: []
+- name: docs-starter-kit-external
+  url: https://github.com/rackerlabs/docs-starter-kit-external
+  description: Templates to build external docs (User Guide, API, and simple docs)
+  tags: []
+- name: cloud-monitoring-plugins
+  url: https://github.com/rackerlabs/cloud-monitoring-plugins
+  description: "Ansible playbooks to configure custom cloud monitoring plugins. "
+  tags: []
+- name: useful-scripts
+  url: https://github.com/rackerlabs/useful-scripts
+  description: A collections of useful Linux investigation tools
+  tags:
+    - apache2buddy
+    - centos
+    - debian
+    - linux
+    - low-disk
+    - lowdisk
+    - mysqltuner
+    - nginxctl
+    - oom
+    - oom-analyzer
+    - out-of-memory
+    - php-fpmpal
+    - pleskbuddy
+    - postfixbuddy
+    - ps-mem
+    - psmem
+    - redhat
+    - rhel
+    - traffic-analyser
+    - ubuntu
+- name: terraform-session-token
+  url: https://github.com/rackerlabs/terraform-session-token
+  description: Native AWS Multi Factor Authentication for standard Terraform
+  tags: []
+- name: repose-http-delegation
+  url: https://github.com/rackerlabs/repose-http-delegation
+  description: A library to support HTTP delegation in Repose
+  tags: []
+- name: props
+  url: https://github.com/rackerlabs/props
+  description: Property structure library
+  tags: []
+- name: bson-erlang
+  url: https://github.com/rackerlabs/bson-erlang
+  description: BSON documents in Erlang, see bsonspec.org
+  tags: []
+- name: dredd
+  url: https://github.com/rackerlabs/dredd
+  description: Language-agnostic HTTP API Testing Tool
+  tags: []
+- name: golja-influxdb
+  url: https://github.com/rackerlabs/golja-influxdb
+  description: Puppet module for InfluxDB
+  tags: []
+- name: docs-aws
+  url: https://github.com/rackerlabs/docs-aws
+  description: Rackspace Fanatical Support for AWS  Product Guide documentation
+  tags: []
+- name: vdo-helm-charts
+  url: https://github.com/rackerlabs/vdo-helm-charts
+  description: Helm Charts for the VDO team
+  tags: []
+- name: docs-gcp
+  url: https://github.com/rackerlabs/docs-gcp
+  description: Rackspace Fanatical Support for GCP Product Guide documentation
+  tags: []
+- name: docs-service-blocks
+  url: https://github.com/rackerlabs/docs-service-blocks
+  description: Professional Services Service Blocks descriptions
+  tags: []
+- name: solve
+  url: https://github.com/rackerlabs/solve
+  description: Vue application for Rackspace Solve.
+  tags:
+    - rackspace
+    - solve
+    - vue
+- name: vdo-helm-orb
+  url: https://github.com/rackerlabs/vdo-helm-orb
+  description: A CircleCI Orb to simplify deployments to Kubernetes using Helm.
+  tags: []
+- name: aws-challenge
+  url: https://github.com/rackerlabs/aws-challenge
+  description: AWS challenge for Rackspace candidates
+  tags: []
+- name: vdo-patches
+  url: https://github.com/rackerlabs/vdo-patches
+  description:
+  tags: []
+- name: docs-vale
+  url: https://github.com/rackerlabs/docs-vale
+  description: Repository of custom Vale styles for the Info Dev team
+  tags: []
+- name: support-how-to
+  url: https://github.com/rackerlabs/support-how-to
+  description: ":new: Rackspace How-To Support Articles :fire:"
+  tags:
+    - how-to
+    - rackspace
+    - support
+- name: technical-blog
+  url: https://github.com/rackerlabs/technical-blog
+  description: ":bulb:  Rackspace Expert Insights Technical Blog"
+  tags:
+    - blog
+    - rackspace
+- name: nginxcfg
+  url: https://github.com/rackerlabs/nginxcfg
+  description:
+    Steamlined version of NginxCtl, with it's only functionality to display
+    nginx server blocks
+  tags: []
+- name: docker-images
+  url: https://github.com/rackerlabs/docker-images
+  description:
+    Official source for Docker configurations, images, and examples of
+    Dockerfiles for Oracle products and projects
+  tags: []
+- name: docs-vmc-on-aws
+  url: https://github.com/rackerlabs/docs-vmc-on-aws
+  description: Documentation for Vmware on AWS
+  tags: []
+- name: dex
+  url: https://github.com/rackerlabs/dex
+  description:
+    OpenID Connect Identity (OIDC) and OAuth 2.0 Provider with Pluggable
+    Connectors
+  tags: []
+- name: istio-examples
+  url: https://github.com/rackerlabs/istio-examples
+  description:
+  tags: []
+- name: rsspca
+  url: https://github.com/rackerlabs/rsspca
+  description: Rackspace Solutions and Services public circle automation
+  tags: []
+- name: karma-mocha
+  url: https://github.com/rackerlabs/karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework.
+  tags: []
+- name: calculator
+  url: https://github.com/rackerlabs/calculator
+  description: Vue.js-based framework for building various pricing calculator(s)
+  tags: []
+- name: gears-workshop
+  url: https://github.com/rackerlabs/gears-workshop
+  description: Terraform sample code from the GCP Enhanced Architecture Review
+  tags: []
+- name: mlflow
+  url: https://github.com/rackerlabs/mlflow
+  description:
+  tags: []
+- name: GossAudit
+  url: https://github.com/rackerlabs/GossAudit
+  description:
+  tags:
+    - audit-tool
+- name: daemonx
+  url: https://github.com/rackerlabs/daemonx
+  description: A class for creating daemons
+  tags: []
+- name: sos
+  url: https://github.com/rackerlabs/sos
+  description: Swift Origin Server
+  tags: []
+- name: swauth
+  url: https://github.com/rackerlabs/swauth
+  description:
+    This is the historical location of Swauth; active development is now
+    at https://github.com/openstack/swauth
+  tags: []
+- name: statsdlog
+  url: https://github.com/rackerlabs/statsdlog
+  description: Transform syslog events to statsd events
+  tags: []
+- name: statsdpy
+  url: https://github.com/rackerlabs/statsdpy
+  description: A python eventlet based statsd server
+  tags: []
+- name: swift-ring-master
+  url: https://github.com/rackerlabs/swift-ring-master
+  description: "[Experimental] - Automated Ring Orchestration "
+  tags: []
+- name: swiftscout
+  url: https://github.com/rackerlabs/swiftscout
+  description: A set of utilities for simplifying tasks in Swift using swift-recon
+  tags: []
+- name: python-xfs
+  url: https://github.com/rackerlabs/python-xfs
+  description: XFS libraries for Python
+  tags: []
+- name: qork-1
+  url: https://github.com/rackerlabs/qork-1
+  description: Queue plus work
+  tags: []
+- name: arcconf
+  url: https://github.com/rackerlabs/arcconf
+  description:
+  tags: []
+- name: megaclisas-status
+  url: https://github.com/rackerlabs/megaclisas-status
+  description: Fetch useful information from MegaCli. Supports Nagios output
+  tags: []
+- name: smartmontools
+  url: https://github.com/rackerlabs/smartmontools
+  description:
+  tags: []
+- name: buildamericas-aws-terraform-waf
+  url: https://github.com/rackerlabs/buildamericas-aws-terraform-waf
+  description: "AWS Terraform Module to deploy AWS WAF version1 "
+  tags: []
+- name: buildamericas-ansible-playbooks
+  url: https://github.com/rackerlabs/buildamericas-ansible-playbooks
+  description: Ansible playbooks to integrate with SSM documents
+  tags: []
+- name: mpcbuild-aws-backup
+  url: https://github.com/rackerlabs/mpcbuild-aws-backup
+  description:
+  tags: []
+- name: aws-terraform-eks
+  url: https://github.com/rackerlabs/aws-terraform-eks
+  description: " AWS EKS Terraform module for Rackspace customers "
+  tags: []
+- name: docs-developer-hugo-theme
+  url: https://github.com/rackerlabs/docs-developer-hugo-theme
+  description: Hugo theme for docs developer blog
+  tags: []
+- name: docs-developer-blog-new
+  url: https://github.com/rackerlabs/docs-developer-blog-new
+  description:
+    This repository is a restructure and redesign of the architecture for
+    the existing docs-developer-blog site
+  tags: []
+- name: mpcbuild-aws-workspaces-setup
+  url: https://github.com/rackerlabs/mpcbuild-aws-workspaces-setup
+  description:
+  tags: []
+- name: mpcbuild-assumption-monitoring
+  url: https://github.com/rackerlabs/mpcbuild-assumption-monitoring
+  description:
+  tags: []
+- name: docs-colocation-guide
+  url: https://github.com/rackerlabs/docs-colocation-guide
+  description:
+  tags: []
+- name: docs-landing-page
+  url: https://github.com/rackerlabs/docs-landing-page
+  description: Rackspace technical documentation landing page
+  tags:
+    - documentation
+    - rackspace
+- name: goss-ui
+  url: https://github.com/rackerlabs/goss-ui
+  description:
+  tags: []
+- name: vdo-ops
+  url: https://github.com/rackerlabs/vdo-ops
+  description:
+  tags: []
+- name: docs-dedicated-load-balancer-v3
+  url: https://github.com/rackerlabs/docs-dedicated-load-balancer-v3
+  description:
+  tags: []
+- name: docs-dxp-handbook
+  url: https://github.com/rackerlabs/docs-dxp-handbook
+  description: RAS Digital Experience Application Operations Customer Handbook
+  tags: []
+- name: support-developer-hugo-theme
+  url: https://github.com/rackerlabs/support-developer-hugo-theme
+  description:
+  tags: []
+- name: obligate
+  url: https://github.com/rackerlabs/obligate
+  description: Migration scripts for melange to quark
+  tags: []
+- name: wafflehaus.nova
+  url: https://github.com/rackerlabs/wafflehaus.nova
+  description: Wafflehaus modules specific to nova
+  tags: []
+- name: twiceredis
+  url: https://github.com/rackerlabs/twiceredis
+  description: read and write sentinel connection pool backed redis client
+  tags: []
+- name: wafflehaus.glance
+  url: https://github.com/rackerlabs/wafflehaus.glance
+  description: Collection of WSGI middlewares for glance
+  tags: []
+- name: docs-portal-onboarding-guide
+  url: https://github.com/rackerlabs/docs-portal-onboarding-guide
+  description: "Onboarding guide for new customers using login.rackspace.com "
+  tags: []
+- name: solution-docs-homepage
+  url: https://github.com/rackerlabs/solution-docs-homepage
+  description: This repository contains developer docs homepage -> docs.rackpsace.com/docs
+  tags: []
+- name: vmware-on-hyperscaler
+  url: https://github.com/rackerlabs/vmware-on-hyperscaler
+  description:
+  tags: []
+- name: mpc-build-latam-automations
+  url: https://github.com/rackerlabs/mpc-build-latam-automations
+  description:
+  tags: []
+- name: docs-rackspace-com-discussion
+  url: https://github.com/rackerlabs/docs-rackspace-com-discussion
+  description: Discussion or feedback about https://docs.rackspace.com
+  tags: []
+- name: docs-server-virt
+  url: https://github.com/rackerlabs/docs-server-virt
+  description: Documentation repo for VMware Server Virtualization
+  tags: []
+- name: pyndiff
+  url: https://github.com/rackerlabs/pyndiff
+  description:
+    Generate human-readable ndiff output when comparing 2 Nmap XML scan
+    files
+  tags:
+    - compare
+    - ndiff
+    - nmap
+    - python
+    - scans
+    - xml
+- name: mpcbuild-aws-ssm-docs
+  url: https://github.com/rackerlabs/mpcbuild-aws-ssm-docs
+  description:
+  tags: []
+- name: oidc-aws-github-module
+  url: https://github.com/rackerlabs/oidc-aws-github-module
+  description:
+  tags: []
+
+#----
+
+- name: aws-terraform-base_network
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-base_network
+  description: Deprecated- Re-usable Terraform module for Rackspace Customers
+  tags:
+    - aws
+    - rackspace
+    - terraform
+    - terraform-module
+- name: aws-terraform-auto_recovery
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-auto_recovery
+  description: Deprecated- Re-usable Terraform module for Rackspace Customers
+  tags:
+    - aws
+    - rackspace
+    - terraform
+    - terraform-module
+
+- name: aws-terraform-iam
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-iam
+  description: Deprecated- Re-usable Terraform module for Rackspace Customers
+  tags: []
+
+- name: aws-terraform-alb
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-alb
+  description:
+    AWS ELBv2 / Application Load Balancer Terraform module for Rackspace
+    Customers
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+
+- name: aws-terraform-aurora
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-aurora
+  description: AWS Aurora Terraform Module for Rackspace customers.
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-vpc_basenetwork
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-vpc_basenetwork
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+    - aws
+    - networking
+- name: aws-terraform-cloudfront_custom_origin
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-cloudfront_custom_origin
+  description: AWS Cloudfront w/ Custom Origin Terraform Module for Rackspace customers.
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-cloudfront_s3_origin
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-cloudfront_s3_origin
+  description: AWS Cloudfront w/ S3 Origin Terraform Module for Rackspace customers.
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-ec2_autorecovery
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-ec2_autorecovery
+  description: " AWS EC2 Autorecover Terraform module for Rackspace customers "
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-ec2_asg
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-ec2_asg
+  description: AWS EC2 Autoscale Group Terraform module for Rackspace customers
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-ecs
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-ecs
+  description: " AWS ECS Terraform module for Rackspace customers "
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-rds
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-rds
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-rms
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-rms
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-route53_internal_zone
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-route53_internal_zone
+  description: Re-usable Terraform module for Rackspace Customers
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-s3
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-s3
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-sns
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-sns
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-vpc_endpoint
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-vpc_endpoint
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+    - aws
+    - networking
+- name: aws-terraform-iam_resources
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-iam_resources
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-security_group
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-security_group
+  description: " AWS Security Group Terraform module for Rackspace customers "
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-sqs
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-sqs
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-efs
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-efs
+  description: AWS EFS Terraform module for Rackspace customers
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-eks
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-eks
+  description: " AWS EKS Terraform module for Rackspace customers "
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-vpc_peer
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-vpc_peer
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+    - aws
+    - networking
+- name: aws-terraform-elasticache
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-elasticache
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-dynamo
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-dynamo
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-vpn
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-vpn
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-clb
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-clb
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-nlb
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-nlb
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-route53
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-route53
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-elasticsearch
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-elasticsearch
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: tfenv
+  url: https://github.com/rackspace-infrastructure-automation/tfenv
+  description: Terraform version manager
+  tags: []
+- name: rackspace-toolbox
+  url: https://github.com/rackspace-infrastructure-automation/rackspace-toolbox
+  description:
+    Container build used to run Terraform commands on layers in customer
+    environments.
+  tags: []
+- name: aws-terraform-codecommit
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-codecommit
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-lambda
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-lambda
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-microsoft_ad
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-microsoft_ad
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-codedeploy
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-codedeploy
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-asg_instance_replacement
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-asg_instance_replacement
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-redshift
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-redshift
+  description: aws-terraform-redshift
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-maintenance_window
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-maintenance_window
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-patch_baseline
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-patch_baseline
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-cloudwatch_alarm
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-cloudwatch_alarm
+  description: AWS Cloudwatch Alarm Terraform module for Rackspace customers
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: aws-terraform-acm
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-acm
+  description:
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+- name: terraform-standards-examples
+  url: https://github.com/rackspace-infrastructure-automation/terraform-standards-examples
+  description:
+  tags: []
+- name: aws-terraform-backup
+  url: https://github.com/rackspace-infrastructure-automation/aws-terraform-backup
+  description: AWS Backup Terraform module for Rackspace customers
+  tags:
+    - navi-rax-supeng
+    - rax-tf-module
+
+- name: mgcp-terraform-modules
+  url: https://github.com/rackspace-infrastructure-automation/mgcp-terraform-modules
+  description:
+  tags:
+    - mgcp
+    - Apps
+    - gcp
+
+- name: gcp-terraform-rs_base_firewall
+  url: https://github.com/rackspace-infrastructure-automation/gcp-terraform-rs_base_firewall
+  description:
+  tags: []
+
+- name: gcp-terraform-ha_vpn
+  url: https://github.com/rackspace-infrastructure-automation/gcp-terraform-ha_vpn
+  description: GCP HA VPN Terraform module for Rackspace customers
+  tags:
+    - mgcp
+    - rax-tf-module
+    - gcp
+
+- name: gcp-terraform-rs_base_policy
+  url: https://github.com/rackspace-infrastructure-automation/gcp-terraform-rs_base_policy
+  description:
+  tags:
+    - gcp
